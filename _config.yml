@@ -1,6 +1,15 @@
-title: Vista Wound Specialists
-description: Wound Care Specialists
-baseurl: "" # leave blank for GitHub Pages
-url: "https://cees3.github.io/vistawound" # change this
-# theme: minima
-
+site: Medicare - Medical and Doctor
+url: ""
+baseurl: ""
+title: Medicare - Medical and Doctor
+# description: Streamline your workflow, boost productivity, and achieve exceptional results with our cutting-edge technology platform designed for modern businesses.
+encoding: utf-8
+markdown: kramdown
+sass:
+  style: compressed
+  sass_dir: _sass
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

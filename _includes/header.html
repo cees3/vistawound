@@ -1,5 +1,83 @@
-<header>
-  <h1>{{ site.title }}</h1>
-  <p>{{ site.description }}</p>
-</header>
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <!-- Header Logo -->
+      <div class="col-lg-3 col-md-2 col-12 my-auto">
+        <div class="top-logo">
+          <a href="{{'/' | relative_url}}"
+            ><img src="{{'assets/img/logo.png' | relative_url}}" alt="logo.png"
+          /></a>
+        </div>
+        <div class="h-menu-right-mobile">
+          <a href="/contact-us/" class="theme-btn">Call Now!</a>
+        </div>
+        <div class="mobile-nav"></div>
+      </div>
 
+      <!-- End Header Logo -->
+      <div class="col-lg-9 col-md-10 col-12">
+        <div class="main-menu-top">
+          <!-- Main Menu Start -->
+          <div class="main-menu">
+            <div class="navbar">
+              <div class="nav-item">
+                <!-- Main Menu Navigation -->
+                <ul class="nav-menu mobile-menu navigation">
+                  <li class="{% if page.url == '/' %}active{% endif %}">
+                    <a href="{{'/' | relative_url}}">Home </a>
+                  </li>
+                  <li
+                    class="{% if page.url == '/our-approach/' %}active{% endif %}"
+                  >
+                    <a href="/our-approach/">Our Approach </a>
+                  </li>
+                  <li class="{% if page.url == '/help/' %}active{% endif %}">
+                    <a href="/help/">How We Help</a>
+                  </li>
+                  <li class="{% if page.url == '/faq/' %}active{% endif %}">
+                    <a href="/faq/">FAQ / Resources</a>
+                  </li>
+                  <li
+                    class="{% if page.url == '/contact-us/' %}active{% endif %}"
+                  >
+                    <a href="/contact-us/">Contact Us</a>
+                  </li>
+
+                  <li
+                    class="{% if page.url contains '/blog/' %}active{% endif %}"
+                  >
+                    <a href="#">Blogs<i class="far fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                      <li
+                        class="{% if page.url == '/blog/families/' %}active{% endif %}"
+                      >
+                        <a href="/blog/families/">Families</a>
+                      </li>
+                      <li
+                        class="{% if page.url == '/blog/nurses/' %}active{% endif %}"
+                      >
+                        <a href="/blog/nurses/">Nurses</a>
+                      </li>
+                      <li
+                        class="{% if page.url == '/blog/case-managers/' %}active{% endif %}"
+                      >
+                        <a href="/blog/case-managers/">Case managers</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End Main Menu -->
+          <!-- Header Menu Right -->
+          <div class="h-menu-right">
+            <a href="/contact-us/" class="theme-btn">Call Now!</a>
+          </div>
+
+          <!-- End Header Menu Right -->
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
