@@ -1,7 +1,7 @@
-site: Medicare - Medical and Doctor
+site: Vistawound - Medical and Doctor
 baseurl: "/vistawound" # this is important
 url: "https://cees3.github.io" # your GitHub Pages root
-title: Medicare - Medical and Doctor
+title: Vistawound - Medical and Doctor
 # description: Streamline your workflow, boost productivity, and achieve exceptional results with our cutting-edge technology platform designed for modern businesses.
 encoding: utf-8
 markdown: kramdown
