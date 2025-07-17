@@ -5,11 +5,13 @@
       <div class="col-lg-3 col-md-2 col-12 my-auto">
         <div class="top-logo">
           <a href="{{'/' | relative_url}}"
-            ><img src="{{'assets/img/logo.png' | relative_url}}" alt="logo.png"
+            ><img
+              src="{{'/assets/img/vista.png' | relative_url}}"
+              alt="logo.png"
           /></a>
         </div>
         <div class="h-menu-right-mobile">
-          <a href="/contact-us/" class="theme-btn">Call Now!</a>
+          <a href="tel:+6494461709" class="theme-btn-mobile">Call Now!</a>
         </div>
         <div class="mobile-nav"></div>
       </div>
@@ -35,7 +37,7 @@
                     <a href="/help/">How We Help</a>
                   </li>
                   <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                    <a href="/faq/">FAQ / Resources</a>
+                    <a href="/faq/">FAQ</a>
                   </li>
                   <li
                     class="{% if page.url == '/contact-us/' %}active{% endif %}"
@@ -46,7 +48,7 @@
                   <li
                     class="{% if page.url contains '/blog/' %}active{% endif %}"
                   >
-                    <a href="#">Blogs<i class="far fa-angle-down"></i></a>
+                    <a href="#">Blog<i class="far fa-angle-down"></i></a>
                     <ul class="sub-menu">
                       <li
                         class="{% if page.url == '/blog/families/' %}active{% endif %}"
@@ -72,7 +74,12 @@
           <!-- End Main Menu -->
           <!-- Header Menu Right -->
           <div class="h-menu-right">
-            <a href="/contact-us/" class="theme-btn">Call Now!</a>
+            <a href="mailto:contact@vistawound.com" class="theme-btn-right"
+              >Contact Us!</a
+            >
+          </div>
+          <div class="h-menu-right-tablet">
+            <a href="tel:+6494461709" class="theme-btn-right">Call Now!</a>
           </div>
 
           <!-- End Header Menu Right -->

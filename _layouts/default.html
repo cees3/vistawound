@@ -8,7 +8,7 @@
       content="{{ page.description | default: site.description }}"
     />
     <title>{{ page.title | default: site.title }}</title>
-    <link rel="icon" href="{{ 'assets/img/favicon.png' | relative_url }}" />
+    <link rel="icon" href="{{ '/assets/img/v-logo.png' | relative_url }}" />
 
     <!-- Google Font -->
     <link
@@ -66,10 +66,13 @@
 
     <!-- Site CSS -->
     <link rel="stylesheet" href="{{'assets/css/default.css' | relative_url}}" />
-    <link rel="stylesheet" href="{{'assets/css/style.css' | relative_url}}" />
     <link
       rel="stylesheet"
-      href="{{'assets/css/responsive.css' | relative_url}}"
+      href="{{'/assets/css/custom-style.css' | relative_url}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{'/assets/css/custom-responsive.css' | relative_url}}"
     />
   </head>
   <body>
