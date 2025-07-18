@@ -227,6 +227,29 @@
     padding: 45px;
     /* margin-right: 24px; */
   }
+  .h-menu-right-mobile {
+    display: block;
+  }
+  .our-approach-contact-section {
+    margin-top: 30px;
+    margin-left: 0px;
+  }
+  .theme-btn-mobile-our-approach {
+    background: #141959;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 0px;
+    padding: 6px 16px 9px 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+  }
+  .theme-btn-mobile-our-approach:hover {
+    background-color: #fdbb1d;
+    color: #fff;
+  }
 }
 
 /* Mobile Screen */
@@ -261,6 +284,26 @@
     border-radius: 10px;
     transition: all 0.4s ease;
     -webkit-transition: all 0.4s ease;
+  }
+  .theme-btn-mobile-our-approach {
+    background: #141959;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 0px;
+    padding: 6px 16px 9px 12px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+  }
+  .theme-btn-mobile-our-approach:hover {
+    background-color: #fdbb1d;
+    color: #fff;
+  }
+  .our-approach-contact-section {
+    margin-top: 30px;
+    margin-left: 0px;
   }
   .theme-btn-mobile:hover {
     background-color: #fdbb1d;
