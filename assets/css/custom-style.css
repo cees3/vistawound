@@ -3254,6 +3254,23 @@ Version         : 1.1
 .login-bottom-content p {
   margin-top: 10px !important;
 }
+
+.our-approach-contact-section {
+  margin-left: 113px;
+  margin-top: 30px;
+}
+.theme-btn-mobile-our-approach {
+  background: #141959;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 39px;
+  padding: 6px 16px 9px 12px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  -webkit-transition: all 0.4s ease;
+}
 /*=============================
       End Login Area
   ===============================*/
@@ -3538,12 +3555,33 @@ Version         : 1.1
   width: 100%;
   height: 50px;
   border: none;
-  background: #ecf7ff;
+  background: #ecf7ff !important; /* force it to stay same */
   padding: 10px 20px;
   font-size: 15px;
   color: #2c2d3f;
   font-weight: 500;
   border-radius: 10px;
+}
+.form-group input::placeholder {
+  color: #2c2d3f;
+  font-weight: 500;
+}
+.contact-form .form-group input:focus {
+  background: #ecf7ff !important; /* force it to stay same */
+  color: #2c2d3f;
+  outline: none;
+}
+/* Autofill fix */
+.contact-form .form-group input:-webkit-autofill {
+  background-color: #ecf7ff !important;
+  -webkit-box-shadow: 0 0 0px 1000px #ecf7ff inset !important;
+  -webkit-text-fill-color: #2c2d3f !important;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+.form-group textarea::placeholder {
+  color: #2c2d3f;
+  font-weight: 500;
 }
 .nice-select {
   width: 100%;
