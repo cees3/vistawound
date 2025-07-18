@@ -8,7 +8,7 @@ author: Vista Wound Specialists
 permalink: /blog/case-managers/
 ---
 
-![Case Manager on Phone](/assets/img/case-manager-first.jpg)
+![Case Manager on Phone](/vistawound/assets/img/case-manager-first.jpg)
 
 As a case manager in Northeast Oklahoma, your goals are clear: ensure safe discharges, improve patient outcomes, and prevent costly hospital readmissions. You need partners who don't just promise results, but reliably deliver them. When a patient has a complex or chronic wound, the risk of complications is high, and finding a dependable post-discharge care provider is critical.
 
@@ -18,7 +18,7 @@ At Vista Wound Specialists, we are built to be that trusted partner. Our mobile,
 
 ## 🚑 A Proactive Approach to Reducing Hospital Readmissions
 
-![Nurse with Patient and Tablet](/assets/img/case-manager-second.jpg)
+![Nurse with Patient and Tablet](/vistawound/assets/img/case-manager-second.jpg)
 
 A key metric for every case manager is the 30-day readmission rate. Non-healing wounds are a primary driver of avoidable ER visits and hospitalizations due to infection or deterioration. Our service directly addresses this challenge.
 
@@ -30,7 +30,7 @@ By providing **expert wound care in the home or skilled nursing facility,** we i
 
 ## 📋 Streamlining the Discharge Planning Process
 
-![Nurse Visiting Elderly Woman](/assets/img/case-manager-third.jpg)
+![Nurse Visiting Elderly Woman](/vistawound/assets/img/case-manager-third.jpg)
 
 Coordinating post-acute care shouldn't be a bottleneck. We make **discharge planning for patients with complex wounds** simple and efficient.
 
