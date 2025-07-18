@@ -5,11 +5,11 @@ date: 2025-07-14
 categories: [For Healthcare Partners]
 author: Vista Wound Specialists
 description: "Explore the Vista Wound Specialists blog for expert advice, patient resources, and valuable insights on healing complex wounds and navigating at-home care."
-image: /assets/img/nurse-blog-first.png
+image: /vistawound/assets/img/nurse-blog-first.png
 permalink: /blog/your-partner-in-the-field/
 ---
 
-![Home health nurse walking toward a patient's home](/assets/img/nurse-blog-first.png)
+![Home health nurse walking toward a patient's home](/vistawound/assets/img/nurse-blog-first.png)
 
 💡 Home health nurses are the backbone of community care in Northeast Oklahoma. Every day, you navigate complex patient needs, endless charting, and the logistical challenges of providing high-quality care in the home. You are a skilled clinician, a patient advocate, and a master coordinator. We know that managing complex wounds and **preventing hospital readmissions** can add significant strain to your already demanding workload.
 
@@ -66,4 +66,4 @@ Ultimately, our role is to be a powerful resource in your toolkit. We want to be
 📱 **Call us for a quick consultation:** (918) XXX-XXXX  
 📨 **Submit a secure referral online:** [Contact Us](/contact-us/)
 
-![Vista provider treating a patient at home](/assets/img/nurse-blog-second.jpg)
+![Vista provider treating a patient at home](/vistawound/assets/img/nurse-blog-second.jpg)
