@@ -3936,3 +3936,47 @@ Version         : 1.1
   font-size: 30px;
   color: #1377d2;
 }
+
+/*=============================
+      Blog Area
+  ===============================*/
+
+.blog-post {
+  font-family: Georgia, serif;
+  line-height: 1.8;
+  color: #333;
+  padding: 2rem;
+}
+.blog-post h2 {
+  color: #2c2d3f;
+  font-weight: 600;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.post-title {
+  margin: 2px;
+  margin-top: 50px;
+  font-weight: 700;
+  font-family: "Barlow", sans-serif;
+}
+.blog-post img {
+  width: 100%;
+  height: 750px;
+  display: block;
+  margin: 20px 0;
+  border-radius: 10px;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+}
+
+.blog-post a {
+  color: #141959; /* professional blue */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.blog-post a:hover {
+  color: #fdbb1d;
+}
