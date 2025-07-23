@@ -1,0 +1,169 @@
+---
+layout: default
+title: Blog
+description: Explore the Vista Wound Specialists blog for expert advice, patient resources, and valuable insights on healing complex wounds and navigating at-home care.
+permalink: /blog/
+---
+
+<section
+  class="breadcrumbs hero-bg"
+  style="
+    background-image: url('/vistwound/assets/img/blog-main-page\ -image.png');
+    background-size: cover;
+    /* background-position: center; */
+  "
+>
+  <div class="container">
+    <div class="row">
+      <!-- Breadcrumb-Content -->
+      <div class="col-lg-6 offset-lg-3 col-12">
+        <div class="breadcrumb-content">
+          <h4>Blog</h4>
+          <ul class="breadcrumb-menu">
+            <li>
+              <a href="/">Home</a><i class="far fa-angle-double-right"></i>
+            </li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="blog-area blog-archive-area">
+  <div class="container">
+    <div class="row">
+      {% for post in site.posts %}
+      <div
+        class="col-lg-4 col-md-6 col-12 wow fadeInLeft mb-3"
+        data-wow-delay="0.2s"
+      >
+        <!-- Single Blog -->
+        <div class="single-blog">
+          <div class="s-blog-head">
+            <div class="s-blog-img">
+              {% if post.image %}
+
+              <img
+                src="{{ post.image }}"
+                alt="Blog image for {{ post.title }}"
+              />
+
+              {% else %}
+
+              <img
+                src="/assets/img/default-blog.jpg"
+                alt="Default blog image"
+              />
+
+              {% endif %}
+            </div>
+            <div class="top-meta">
+              <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            </div>
+          </div>
+          <div class="single-blog-content">
+            <div class="single-blog-title">
+              <h3>
+                <a href="{{ post.url }}"
+                  >{{ post.title | truncate: 35, "..." }}</a
+                >
+              </h3>
+              <p>{{ post.blog-description | truncate: 150, "..." }}</p>
+            </div>
+            <!-- Blog Author -->
+            <div class="blog-author">
+              <!-- <div class="b-author-left">
+                <img src="/assets/img/nurse-blog-first.png" alt="#" />
+              </div> -->
+              <div class="b-author-content">
+                <a href="{{ post.url }}" class="about-links">Read More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <!-- End Single Blog -->
+    </div>
+  </div>
+</section>
+
+{% if page.layout == "post" %}
+<!-- More Blog Posts Section -->
+<section class="blog-area blog-archive-area">
+  <div class="container">
+    <h2 class="section-title text-center mt-5 mb-3">More from Our Blog</h2>
+    <div class="row">
+      {% assign related_posts = site.posts | where_exp: "item", "item.url !=
+      page.url" | limit:3 %} {% for post in related_posts %}
+      <div
+        class="col-lg-4 col-md-6 col-12 wow fadeInLeft mb-3"
+        data-wow-delay="0.2s"
+      >
+        <div class="single-blog">
+          <div class="s-blog-head">
+            <div class="s-blog-img">
+              {% if post.image %}
+              <img
+                src="{{ post.image }}"
+                alt="Blog image for {{ post.title }}"
+              />
+              {% else %}
+              <img
+                src="/assets/img/default-blog.jpg"
+                alt="Default blog image"
+              />
+              {% endif %}
+            </div>
+            <div class="top-meta">
+              <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            </div>
+          </div>
+          <div class="single-blog-content">
+            <div class="single-blog-title">
+              <h3>
+                <a href="{{ post.url }}"
+                  >{{ post.title | truncate: 35, "..." }}</a
+                >
+              </h3>
+              <p>{{ post.blog-description | truncate: 150, "..." }}</p>
+            </div>
+            <div class="blog-author">
+              <div class="b-author-content">
+                <a href="{{ post.url }}" class="about-links">Read More...</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% endif %}
+
+<section class="news-letter-area newsletter-bg">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+        <div class="news-letter-content">
+          <h3>Ready to Get Started?</h3>
+          <p>
+            Reach out today. Our responsive team is here to coordinate care
+            quickly and efficiently.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+        <div
+          class="hero-button d-flex gap-3 justify-content-lg-end justify-content-center mt-3 mt-lg-0"
+        >
+          <a href="mailto:contact@vistawound.com" class="theme-btn">EMAIL US</a>
+          <a href="/contact-us/" class="theme-btn">REQUEST A CONSULTATION</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
