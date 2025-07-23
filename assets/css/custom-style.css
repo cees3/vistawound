@@ -317,7 +317,7 @@ Version         : 1.1
 .single-slider::before {
   content: "";
   position: absolute;
-  background: rgba(19, 119, 210, 0.5);
+  background: rgba(20, 25, 89, 0.3);
   height: 100%;
   width: 100%;
   top: 0;
@@ -409,6 +409,7 @@ Version         : 1.1
   color: #2c2d3f;
   margin-right: 10px;
   text-wrap: nowrap;
+  padding: 9px 13px 10px 10px;
 }
 
 .hero-button .theme-btn:hover {
@@ -504,7 +505,7 @@ Version         : 1.1
   margin-bottom: 56px;
 }
 .our-help-mission-area {
-  padding: 60px 0px;
+  padding: 30px 0px;
 }
 .help-image-section {
   height: 300px;
@@ -1806,6 +1807,9 @@ Version         : 1.1
 .mission-img img {
   border-radius: 15px;
 }
+.mission-img-mobile {
+  display: none;
+}
 .mission-content h3 {
   font-size: 40px;
   color: #2c2d3f;
@@ -2099,6 +2103,7 @@ Version         : 1.1
   box-shadow: 0 0 40px 5px rgb(0 0 0 / 3%);
   margin-top: 30px;
   border-radius: 10px;
+  height: 100%;
 }
 .s-blog-head {
   position: relative;
@@ -2114,7 +2119,10 @@ Version         : 1.1
 
 .s-blog-img img {
   border-radius: 10px;
+  height: 360px;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .single-blog-area-sidebar {
@@ -2142,7 +2150,7 @@ Version         : 1.1
   bottom: -11px;
 }
 .single-blog .top-meta span {
-  background: #1277d2;
+  background: #141959;
   color: #fff;
   padding: 10px 25px;
   font-size: 15px;
@@ -2153,28 +2161,33 @@ Version         : 1.1
 .single-blog-title {
   position: relative;
 }
-.single-blog-content h3 {
+.single-blog-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
 }
+
 .single-blog-content h3 a {
   font-size: 22px;
   color: #2c2d3f;
   line-height: 28px;
   display: block;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .single-blog-content h3 a:hover {
   color: #141959;
 }
 .single-blog-content p {
   color: #666;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
 }
 .blog-author {
   display: flex;
   align-items: center;
   margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #ddd;
 }
 .blog-author .b-author-left {
 }
@@ -2960,7 +2973,7 @@ Version         : 1.1
   content: "";
   width: 100%;
   height: 100%;
-  background: rgba(19, 119, 210, 0.5);
+  background: rgba(20, 25, 89, 0.3);
   top: 0;
   left: 0;
   opacity: 0.8;
@@ -2968,7 +2981,7 @@ Version         : 1.1
 
 .newsletter-bg {
   padding: 150px 0;
-  background-image: url("/vistawound/assets/img/ready-to-started.png");
+  background-image: url("/assets/img/ready-to-started.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -3097,7 +3110,7 @@ Version         : 1.1
 .breadcrumbs::before {
   position: absolute;
   content: "";
-  background: rgba(19, 119, 210, 0.5);
+  background: rgba(20, 25, 89, 0.3);
   width: 100%;
   height: 100%;
   top: 0;
@@ -3140,7 +3153,7 @@ Version         : 1.1
       policy-area
   ===============================*/
 .policy-area {
-  padding: 100px 0px;
+  padding: 60px 0px;
   background: #f9f9f9;
 }
 
@@ -3335,7 +3348,7 @@ Version         : 1.1
 .faq-area .panel .faq-title a {
   text-decoration: none;
   border-color: transparent;
-  border-top: 2px solid rgba(58, 122, 251, 0.3);
+  border-top: 2px solid rgba(20, 25, 89, 0.3);
 }
 .faq-area .panel .faq-title a.collapsed {
   color: #fff;
@@ -3344,7 +3357,7 @@ Version         : 1.1
   border-radius: 10px;
   padding: 15px 20px;
   background: #f9f9fb;
-  border: 2px solid rgba(58, 122, 251, 0.3);
+  border: 2px solid rgba(20, 25, 89, 0.3);
   font-weight: 600;
   font-size: 17px;
   line-height: 26px;
@@ -3472,7 +3485,7 @@ Version         : 1.1
   content: "";
   width: 100%;
   height: 100%;
-  background: rgba(19, 119, 210, 0.5);
+  background: rgba(20, 25, 89, 0.3);
   left: 0;
   top: 0;
   opacity: 0.8;
@@ -3986,10 +3999,17 @@ Version         : 1.1
   padding: 2rem;
 }
 .blog-post h2 {
+  margin: 20px 0px;
+  font-size: 40px;
+  margin-bottom: 15px;
   color: #2c2d3f;
   font-weight: 600;
-  font-size: 30px;
-  text-transform: capitalize;
+  font-family: "Barlow", sans-serif;
+}
+.blog-post p {
+  margin: 0;
+  color: #2c2d3f;
+  font-family: "Barlow", sans-serif;
 }
 .post-title {
   margin: 2px;
