@@ -7,7 +7,7 @@ categories: [For Patients & Families]
 author: Vista Wound Specialists
 blog-description: "At Vista Wound Specialists, we understand these challenges because we believe that high-quality medical care should fit into your life, not disrupt it. We were founded on a simple idea bring trustworthy, expert at-home wound care to families across Tulsa and Northeast Oklahoma, so your loved one can heal with dignity, right where they belong."
 description: "Explore the Vista Wound Specialists blog for expert advice, patient resources, and valuable insights on healing complex wounds and navigating at-home care."
-image: /assets/img/family-blog-first.png
+image: /vistawound/assets/img/family-blog-first.png
 permalink: /blog/wound-care-at-home/
 ---
 
@@ -36,7 +36,7 @@ For us, this is more than just a phrase; it’s the standard for our care. It’
 
 <i class="far fa-check-circle" style="color: #141959"></i> **Doing What's Right:** Our practice is built on integrity. We follow through on our promises, show up when we say we will, and always prioritize the patient's well-being above all else.
 
-![Home health nurse walking toward a patient's home](/assets/img/family-blog-second.png)
+![Home health nurse walking toward a patient's home](/vistawound/assets/img/family-blog-second.png)
 
 ## What to Expect During a Home Visit
 
