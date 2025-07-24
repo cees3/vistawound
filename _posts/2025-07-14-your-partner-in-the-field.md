@@ -7,11 +7,11 @@ author: Vista Wound Specialists
 breadcrumb-title: Nurse
 description: "Explore the Vista Wound Specialists blog for expert advice, patient resources, and valuable insights on healing complex wounds and navigating at-home care."
 blog-description: "Home health nurses are the backbone of community care in Northeast Oklahoma. Every day, you navigate complex patient needs, endless charting, and the logistical challenges of providing high-quality care in the home. You are a skilled clinician, a patient advocate, and a master coordinator. We know that managing complex wounds and preventing hospital readmissions can add significant strain to your already demanding workload."
-image: /vistawound/assets/img/nurse-blog-top-image.png
-permalink: /blog/your-partner-in-the-field/
+image: "/assets/img/nurse-blog-top-image.png"
+permalink: /blog/nurses/
 ---
 
-![Home health nurse walking toward a patient's home](/vistawound/assets/img/nurse-blog-first.png)
+![Home health nurse walking toward a patient's home]({{ site.baseurl }}/assets/img/nurse-blog-first.png)
 
 Home health nurses are the backbone of community care in Northeast Oklahoma. Every day, you navigate complex patient needs, endless charting, and the logistical challenges of providing high-quality care in the home. You are a skilled clinician, a patient advocate, and a master coordinator. We know that managing complex wounds and **preventing hospital readmissions** can add significant strain to your already demanding workload.At Vista Wound Specialists, we don’t just see a wound; we see the entire picture. We see you, the dedicated nurse managing the patient’s overall care plan, and our entire **mobile wound care** model is built to support you. This is what we mean when we say we work alongside you, not over you.
 
@@ -28,17 +28,17 @@ We understand the importance of timely charting. Our providers complete and shar
 <i class="far fa-check-circle" style="color: #141959"></i> **True Care Plan Integration:**  
 We’re not here to dictate a new plan; we’re here to add a specialized component to yours. We review your existing plan and build upon it, ensuring our interventions are perfectly aligned with the patient's overall goals.
 
-![Home health nurse walking toward a patient's home](/vistawound/assets/img/nurse-blog-third.png)
+![Home health nurse walking toward a patient's home]({{ site.baseurl }}/assets/img/nurse-blog-third.png)
 
 ## Advanced Bedside Procedures to Simplify Patient Care
 
 One of the biggest hurdles in **at-home wound care** is transportation.Arranging for a patient with mobility issues to visit an outside clinic is a logistical challenge that consumes your valuable time and energy.**Vista eliminates that entirely.**  
 Our providers are equipped to perform a wide range of advanced procedures right at the patient's bedside, including:
 
-- <i class="far fa-check-circle" style="color: #141959"></i> [Bedside debridement](/vistawound/help/)
-- <i class="far fa-check-circle" style="color: #141959"></i> Application of [advanced dressings and biologics](/vistawound/help/)
-- <i class="far fa-check-circle" style="color: #141959"></i> [Skin substitute grafting](/vistawound/help/)
-- <i class="far fa-check-circle" style="color: #141959"></i> [Negative Pressure Wound Therapy (NPWT) management](/vistawound/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> [Bedside debridement]({{ site.baseurl }}/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> Application of [advanced dressings and biologics]({{ site.baseurl }}/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> [Skin substitute grafting]({{ site.baseurl }}/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> [Negative Pressure Wound Therapy (NPWT) management]({{ site.baseurl }}/help/)
 
 By bringing these services to the home, we not only provide expert care without delay but also free you from the burden of arranging transport and appointments.
 
@@ -46,4 +46,4 @@ By bringing these services to the home, we not only provide expert care without 
 
 Ultimately, our role is to be a powerful resource in your toolkit. We want to be the reliable, responsive partner you can call when you’re facing a challenging wound, knowing you’ll get the support you and your patient deserve. Whether your patient is in a Tulsa suburb or a rural home near Muskogee, our goal is the same: to help them heal faster while making your job easier.
 
-![Vista provider treating a patient at home](/vistawound/assets/img/nurse-blog-second.jpg)
+![Vista provider treating a patient at home]({{ site.baseurl }}/assets/img/nurse-blog-second.jpg)

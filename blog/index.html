@@ -8,7 +8,7 @@ permalink: /blog/
 <section
   class="breadcrumbs hero-bg"
   style="
-    background-image: url('/vistawound/assets/img/blog-main-page\ -image.png');
+    background-image: url('{{ site.baseurl }}/assets/img/blog-main-page\ -image.png');
     background-size: cover;
     /* background-position: center; */
   "
@@ -21,7 +21,8 @@ permalink: /blog/
           <h4>Blog</h4>
           <ul class="breadcrumb-menu">
             <li>
-              <a href="/vistawound/">Home</a><i class="far fa-angle-double-right"></i>
+              <a href="{{ site.baseurl }}/">Home</a
+              ><i class="far fa-angle-double-right"></i>
             </li>
             <li><a href="#">Blog</a></li>
           </ul>
@@ -46,14 +47,14 @@ permalink: /blog/
               {% if post.image %}
 
               <img
-                src="{{ post.image }}"
+                src="{{ site.baseurl }}{{ post.image }}"
                 alt="Blog image for {{ post.title }}"
               />
 
               {% else %}
 
               <img
-                src="/vistawound/assets/img/default-blog.jpg"
+                src="{{ site.baseurl }}/assets/img/default-blog.jpg"
                 alt="Default blog image"
               />
 
@@ -66,7 +67,7 @@ permalink: /blog/
           <div class="single-blog-content">
             <div class="single-blog-title">
               <h3>
-                <a href="/vistawound{{ post.url }}"
+                <a href="{{ site.baseurl }}{{ post.url }}"
                   >{{ post.title | truncate: 35, "..." }}</a
                 >
               </h3>
@@ -78,7 +79,9 @@ permalink: /blog/
                 <img src="/assets/img/nurse-blog-first.png" alt="#" />
               </div> -->
               <div class="b-author-content">
-                <a href="/vistawound{{ post.url }}" class="about-links">Read More...</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="about-links"
+                  >Read More...</a
+                >
               </div>
             </div>
           </div>
@@ -107,12 +110,12 @@ permalink: /blog/
             <div class="s-blog-img">
               {% if post.image %}
               <img
-                src="{{ post.image }}"
+                src="{{ site.baseurl }}{{ post.image }}"
                 alt="Blog image for {{ post.title }}"
               />
               {% else %}
               <img
-                src="/vistawound/assets/img/default-blog.jpg"
+                src="{{ site.baseurl }}/assets/img/default-blog.jpg"
                 alt="Default blog image"
               />
               {% endif %}
@@ -124,7 +127,7 @@ permalink: /blog/
           <div class="single-blog-content">
             <div class="single-blog-title">
               <h3>
-                <a href="/vistawound{{ post.url }}"
+                <a href="{{ site.baseurl }}{{ post.url }}"
                   >{{ post.title | truncate: 35, "..." }}</a
                 >
               </h3>
@@ -132,7 +135,9 @@ permalink: /blog/
             </div>
             <div class="blog-author">
               <div class="b-author-content">
-                <a href="/vistawound{{ post.url }}" class="about-links">Read More...</a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="about-links"
+                  >Read More...</a
+                >
               </div>
             </div>
           </div>
@@ -144,7 +149,10 @@ permalink: /blog/
 </section>
 {% endif %}
 
-<section class="news-letter-area newsletter-bg">
+<section
+  class="news-letter-area newsletter-bg"
+  style="background-image: url('{{ site.baseurl }}/assets/img/ready-to-started.png'); padding: 150px 0; background-size: cover; background-position: center; background-repeat: no-repeat;"
+>
   <div class="container">
     <div class="row align-items-center">
       <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
@@ -161,7 +169,9 @@ permalink: /blog/
           class="hero-button d-flex gap-3 justify-content-lg-end justify-content-center mt-3 mt-lg-0"
         >
           <a href="mailto:contact@vistawound.com" class="theme-btn">EMAIL US</a>
-          <a href="/vistawound/contact-us/" class="theme-btn">REQUEST A CONSULTATION</a>
+          <a href="{{ site.baseurl }}/contact-us/" class="theme-btn"
+            >REQUEST A CONSULTATION</a
+          >
         </div>
       </div>
     </div>

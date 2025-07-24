@@ -7,8 +7,8 @@ categories: [For Patients & Families]
 author: Vista Wound Specialists
 blog-description: "At Vista Wound Specialists, we understand these challenges because we believe that high-quality medical care should fit into your life, not disrupt it. We were founded on a simple idea bring trustworthy, expert at-home wound care to families across Tulsa and Northeast Oklahoma, so your loved one can heal with dignity, right where they belong."
 description: "Explore the Vista Wound Specialists blog for expert advice, patient resources, and valuable insights on healing complex wounds and navigating at-home care."
-image: /vistawound/assets/img/family-blog-first.png
-permalink: /blog/wound-care-at-home/
+image: "/assets/img/family-blog-first.png"
+permalink: /blog/families/
 ---
 
 When a loved one is dealing with a serious or non-healing wound, the stress can be overwhelming. You worry about pain, infection, and endless trips to the doctor's office. You want the best possible care for them, but you also want them to be comfortable and safe in a familiar place. How can you manage it all?
@@ -36,7 +36,7 @@ For us, this is more than just a phrase; it’s the standard for our care. It’
 
 <i class="far fa-check-circle" style="color: #141959"></i> **Doing What's Right:** Our practice is built on integrity. We follow through on our promises, show up when we say we will, and always prioritize the patient's well-being above all else.
 
-![Home health nurse walking toward a patient's home](/vistawound/assets/img/family-blog-second.png)
+![Home health nurse walking toward a patient's home]({{ site.baseurl }}/assets/img/family-blog-second.png)
 
 ## What to Expect During a Home Visit
 
@@ -46,7 +46,7 @@ During a visit, our provider will:
 
 - <i class="far fa-check-circle" style="color: #141959"></i> Gently assess the wound and the surrounding skin.
 - <i class="far fa-check-circle" style="color: #141959"></i> Review the patient's medical history and current medications.
-- <i class="far fa-check-circle" style="color: #141959"></i> Provide any necessary treatment on the spot, such as cleaning the wound or applying new, [advanced dressings](/vistawound/help/).
+- <i class="far fa-check-circle" style="color: #141959"></i> Provide any necessary treatment on the spot, such as cleaning the wound or applying new, [advanced dressings]({{ site.baseurl }}/help/).
 - <i class="far fa-check-circle" style="color: #141959"></i> Create a personalized care plan and discuss the next steps with you.
 - <i class="far fa-check-circle" style="color: #141959"></i> Answer any and all questions you may have.
 
