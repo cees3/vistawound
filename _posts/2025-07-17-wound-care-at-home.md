@@ -46,7 +46,7 @@ During a visit, our provider will:
 
 - <i class="far fa-check-circle" style="color: #141959"></i> Gently assess the wound and the surrounding skin.
 - <i class="far fa-check-circle" style="color: #141959"></i> Review the patient's medical history and current medications.
-- <i class="far fa-check-circle" style="color: #141959"></i> Provide any necessary treatment on the spot, such as cleaning the wound or applying new, [advanced dressings](/help/).
+- <i class="far fa-check-circle" style="color: #141959"></i> Provide any necessary treatment on the spot, such as cleaning the wound or applying new, [advanced dressings](/vistawound/help/).
 - <i class="far fa-check-circle" style="color: #141959"></i> Create a personalized care plan and discuss the next steps with you.
 - <i class="far fa-check-circle" style="color: #141959"></i> Answer any and all questions you may have.
 

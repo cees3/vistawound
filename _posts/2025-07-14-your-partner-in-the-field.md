@@ -35,10 +35,10 @@ We’re not here to dictate a new plan; we’re here to add a specialized compon
 One of the biggest hurdles in **at-home wound care** is transportation.Arranging for a patient with mobility issues to visit an outside clinic is a logistical challenge that consumes your valuable time and energy.**Vista eliminates that entirely.**  
 Our providers are equipped to perform a wide range of advanced procedures right at the patient's bedside, including:
 
-- <i class="far fa-check-circle" style="color: #141959"></i> [Bedside debridement](/help/)
-- <i class="far fa-check-circle" style="color: #141959"></i> Application of [advanced dressings and biologics](/help/)
-- <i class="far fa-check-circle" style="color: #141959"></i> [Skin substitute grafting](/help/)
-- <i class="far fa-check-circle" style="color: #141959"></i> [Negative Pressure Wound Therapy (NPWT) management](/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> [Bedside debridement](/vistawound/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> Application of [advanced dressings and biologics](/vistawound/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> [Skin substitute grafting](/vistawound/help/)
+- <i class="far fa-check-circle" style="color: #141959"></i> [Negative Pressure Wound Therapy (NPWT) management](/vistawound/help/)
 
 By bringing these services to the home, we not only provide expert care without delay but also free you from the burden of arranging transport and appointments.
 
