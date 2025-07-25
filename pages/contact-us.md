@@ -113,8 +113,8 @@ permalink: /contact-us/
                           <option value="Venous Stasis Ulcers">
                             Venous Stasis Ulcers
                           </option>
-                          <option value="Arterial Wounds">
-                            Arterial Wounds
+                          <option value="Arterial Ulcers">
+                            Arterial Ulcers
                           </option>
                           <option value="Post-Operative Wounds">
                             Post-Operative Wounds

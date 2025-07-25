@@ -530,7 +530,7 @@ Version         : 1.1
   border-radius: 15px;
 }
 .about-content {
-  padding-left: 142px;
+  padding-left: 30px;
 }
 .list-para {
   margin-bottom: 10px;
@@ -630,7 +630,7 @@ Version         : 1.1
 }
 .single-service {
   background: #fff;
-  padding: 42px 55px 34px 64px;
+  padding: 45px 55px 34px 60px;
   box-shadow: 0 0 40px 5px rgb(0 0 0 / 3%);
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;
@@ -638,6 +638,12 @@ Version         : 1.1
   margin-top: 30px;
   border-radius: 10px;
 }
+.service-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .single-service.active {
   background: #141959;
   color: #fdbb1d;
@@ -1806,6 +1812,8 @@ Version         : 1.1
 }
 .mission-img img {
   border-radius: 15px;
+  object-fit: cover;
+  object-position: center;
 }
 .mission-img-mobile {
   display: none;
@@ -3683,6 +3691,11 @@ Version         : 1.1
   z-index: 1;
 }
 
+.custom-footer-container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-top {
   padding: 50px 0px 80px 0px;
 }
@@ -3775,9 +3788,11 @@ Version         : 1.1
   color: #fdbb1d;
 }
 .single-widget.footer-q-links {
-  padding-left: 30px;
+  margin-left: 112px;
 }
+
 .footer-contact {
+  padding-left: 60px;
 }
 .footer-contact p {
   color: #fff;
@@ -4037,4 +4052,8 @@ Version         : 1.1
 
 .blog-post a:hover {
   color: #fdbb1d;
+}
+
+.about-content-para {
+  margin-left: 35px;
 }

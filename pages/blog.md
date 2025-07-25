@@ -45,19 +45,18 @@ permalink: /blog/
           <div class="s-blog-head">
             <div class="s-blog-img">
               {% if post.image %}
-
+              <a href="{{ site.baseurl }}{{ post.url }}"
+                  >
               <img
                 src="{{ site.baseurl }}{{ post.image }}"
                 alt="Blog image for {{ post.title }}"
               />
-
+              </a>
               {% else %}
-
               <img
                 src="{{ site.baseurl }}/assets/img/default-blog.jpg"
                 alt="Default blog image"
               />
-
               {% endif %}
             </div>
             <div class="top-meta">
@@ -90,10 +89,12 @@ permalink: /blog/
       {% endfor %}
       <!-- End Single Blog -->
     </div>
+
   </div>
 </section>
 
 {% if page.layout == "post" %}
+
 <!-- More Blog Posts Section -->
 <section class="blog-area blog-archive-area">
   <div class="container">
@@ -109,10 +110,12 @@ permalink: /blog/
           <div class="s-blog-head">
             <div class="s-blog-img">
               {% if post.image %}
+              <a href="{{ site.baseurl }}{{ post.url }}">
               <img
                 src="{{ site.baseurl }}{{ post.image }}"
                 alt="Blog image for {{ post.title }}"
               />
+              </a>
               {% else %}
               <img
                 src="{{ site.baseurl }}/assets/img/default-blog.jpg"

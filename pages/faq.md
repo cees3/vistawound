@@ -46,6 +46,7 @@ permalink: /faq/
                 <div class="faq-heading" id="FaqTitle1">
                   <h4 class="faq-title">
                     <a
+                    class="collapsed"
                       data-bs-toggle="collapse"
                       data-parent="#accordion"
                       href="#faq1"
@@ -56,7 +57,7 @@ permalink: /faq/
                 </div>
                 <div
                   id="faq1"
-                  class="panel-collapse collapse show in"
+                 class="panel-collapse collapse"
                   role="tabpanel"
                   aria-labelledby="FaqTitle1"
                 >
@@ -118,7 +119,7 @@ permalink: /faq/
                 >
                   <div class="faq-body">
                     We treat patients directly in their homes, assisted living
-                    facilities, and skilled nursing settings across Northeast
+                    facilities, and nursing settings across Northeast
                     Oklahoma. We bring advanced wound care directly to you—no
                     travel required.
                   </div>
@@ -231,12 +232,10 @@ permalink: /faq/
                   aria-labelledby="FaqTitle4"
                 >
                   <div class="faq-body">
-                    Yes. Our providers are trained in
-                    <a href="{{ site.baseurl }}/help/" class="about-links"
+                  Yes. Our providers are trained in 
+                  <a href="{{ site.baseurl }}/help/" class="about-links"
                       >advanced wound care</a
-                    >, including skin substitute grafting, negative pressure
-                    wound therapy (NPWT), and bedside debridement when medically
-                    appropriate.
+                    >, including skin substitute grafting and negative pressure wound therapy (NPWT), when medically appropriate
                   </div>
                 </div>
               </div>
@@ -264,12 +263,12 @@ permalink: /faq/
                       >contact us directly</a
                     >
                     to request a consultation. However, we often work with
-                    referrals from primary care providers,<a
-                      href="{{ site.baseurl }}/"
+                    referrals from primary care providers, <a
+                      href="{{ site.baseurl }}/blog/nurses/"
                       class="about-links"
                       >home health nurses</a
-                    >
-                    ,<a href="{{ site.baseurl }}/" class="about-links"
+                    >,
+                    <a href="{{ site.baseurl }}/blog/case-managers/" class="about-links"
                       >case managers</a
                     >, and hospital discharge planners.
                   </div>
@@ -327,11 +326,7 @@ permalink: /faq/
                     We’ll assess your wound, review your medical history, and
                     provide treatment on the spot if needed. We’ll also create a
                     personalized care plan and communicate with your other
-                    providers (like your<a
-                      href="{{ site.baseurl }}/"
-                      class="about-links"
-                      >primary doctor or home health nurse</a
-                    >).
+                    providers (like your primary doctor or home health nurse).
                   </div>
                 </div>
               </div>
@@ -356,11 +351,7 @@ permalink: /faq/
                   <div class="faq-body">
                     We believe in strong communication. We share timely updates
                     and documentation with your care team—whether it’s your
-                    primary care provider, specialist,<a
-                      href="{{ site.baseurl }}/"
-                      class="about-links"
-                      >home health agency, or facility staff</a
-                    >
+                    primary care provider, specialist, home health agency, or facility staff
                     We prioritize clarity and collaboration.
                   </div>
                 </div>

@@ -19,7 +19,7 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
     style="
       background-image: url('{{ site.baseurl }}/assets/img/homepage-topbar.png');
       background-size: cover;
-      background-position: center;
+      /* background-position: center; */
     "
   >
     <div class="container">
@@ -46,7 +46,6 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
     </div>
   </div>
 </section>
-
 <!-- End Hero Area -->
 
 <!-- Features Area -->
@@ -135,6 +134,72 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
 </section>
 <!-- End Features Area -->
 
+<!-- Our Mission Area -->
+<section class="our-mission-area">
+  <div class="container">
+    <div class="row">
+      <div class="mission-img-mobile">
+        <img
+          src="{{ site.baseurl }}/assets/img/home-page-our-mission-image.png"
+          alt="home-page-our-mission-image"
+          class="img-fluid"
+        />
+      </div>
+      <!-- Mission Content -->
+      <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+        <div class="mission-content">
+          <div class="mission-c-top">
+            <span>Our Mission</span>
+            <h3>High-Integrity Care Model</h3>
+            <p>
+              At Vista, our mission is simple: to help patients
+              <a href="{{ site.baseurl }}/faq/" class="about-links"
+                >heal faster and stay out of the hospital</a
+              >
+              We combine extensive clinical experience with evidence-based
+              practices and leading-edge tools to provide at-home treatment for
+              even the most complex wounds.
+            </p>
+            <p class="mt-3">
+              We’re proud to operate with a high-integrity, high-communication
+              model. That means:
+            </p>
+          </div>
+          <ul class="mission-c-list">
+            <li>
+              <i class="far fa-check-circle"></i>Providers who follow through—on
+              documentation, care plans, and outcomes.
+            </li>
+            <li>
+              <i class="far fa-check-circle"></i>Clear, timely updates to
+              referring providers, facilities, and families.
+            </li>
+            <li>
+              <i class="far fa-check-circle"></i>A team culture that values
+              professionalism, accountability, and responsiveness.
+            </li>
+          </ul>
+          <p class="mt-3">
+            With Vista, patients get more than a home visit—they get a
+            specialized wound care team that delivers consistent, competent, and
+            collaborative care right where they need it most.
+          </p>
+        </div>
+      </div>
+      <!-- Mission Image -->
+      <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+        <div class="mission-img">
+          <img
+            src="{{ site.baseurl }}/assets/img/home-page-our-mission-image.png"
+            alt="home-page-our-mission-image"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Our Mission Area -->
+
 <!-- About Area -->
 <section class="about-area">
   <div class="container">
@@ -165,14 +230,14 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
             <h3>A Trusted Partner for Healthcare Professionals and Families</h3>
           </div>
           <div class="about-content-list">
-            <div class="row justify-content-center">
+            <div class="row about-content-para">
               <div class="col-lg-9 col-md-9 col-12">
                 <ul>
                   <li>
                     <i class="far fa-check-circle"></i
                     ><strong>For Patients & Families</strong>
                   </li>
-                  <p>
+                  <p style="margin-bottom: 15px">
                     You deserve care that’s not just convenient, but honest,
                     compassionate, and clear. At Vista, we come to you in your
                     home, assisted living, or nursing facility, and treat you
@@ -189,7 +254,7 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
                     <i class="far fa-check-circle"></i
                     ><strong>For Nurses </strong>
                   </li>
-                  <p>
+                  <p style="margin-bottom: 15px">
                     We know the biggest frustrations nurses face with wound care
                     providers: slow responses that delay treatment, unclear or
                     conflicting orders, missing documentation, and providers who
@@ -199,11 +264,12 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
                     responsive follow-up. With us, you get expert wound care
                     that appreciates all you’ve done to get patients this far
                     and helps carry them the rest of the way to healing without
-                    unnecessary delays or hassle. →
+                    unnecessary delays or hassle. → Can we serve alongside of
+                    you?
                     <a
                       href="{{ site.baseurl }}/blog/nurses/"
                       class="about-links"
-                      >[Need a fast consult?]</a
+                      >[Learn More].</a
                     >
                   </p>
                   <li>
@@ -259,25 +325,25 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
         class="col-lg-4 col-md-6 col-12 wow fadeInLeft"
         data-wow-delay="0.2s"
       >
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-heartbeat"></i> -->
-            <div class="service-main-content-long">
-              <h4><a href="#">Diabetic Foot Ulcers</a></h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#diabetic-foot-ulcers"
+                >Diabetic Foot Ulcers</a
+              >
+            </h4>
           </div>
         </div>
       </div>
       <!-- Single Service -->
       <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-user-md"></i> -->
-            <div class="service-main-content-long">
-              <h4>
-                <a href="#">Pressure Injuries (Bedsores)</a>
-              </h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#pressure-injuries"
+                >Pressure Injuries (Bedsores)</a
+              >
+            </h4>
           </div>
         </div>
       </div>
@@ -286,12 +352,13 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
         class="col-lg-4 col-md-6 col-12 wow fadeInRight"
         data-wow-delay="0.2s"
       >
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-user-nurse"></i> -->
-            <div class="service-main-content">
-              <h4><a href="#">Venous Stasis Ulcers</a></h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#venous-stasis-ulcers"
+                >Venous Stasis Ulcers</a
+              >
+            </h4>
           </div>
         </div>
       </div>
@@ -300,23 +367,25 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
         class="col-lg-4 col-md-6 col-12 wow fadeInLeft"
         data-wow-delay="0.2s"
       >
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-tooth"></i> -->
-            <div class="service-main-content">
-              <h4><a href="#">Arterial Wounds</a></h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#arterial-ulcers"
+                >Arterial Ulcers</a
+              >
+            </h4>
           </div>
         </div>
       </div>
       <!-- Single Service -->
       <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-kidneys"></i> -->
-            <div class="service-main-content-long">
-              <h4><a href="#">Post-Operative Wounds </a></h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#post-operative-complications"
+                >Post-Operative Wounds
+              </a>
+            </h4>
           </div>
         </div>
       </div>
@@ -325,14 +394,13 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
         class="col-lg-4 col-md-6 col-12 wow fadeInRight"
         data-wow-delay="0.2s"
       >
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-microscope"></i> -->
-            <div class="service-main-content-long">
-              <h4>
-                <a href="#">Infected or Non-Healing Wounds </a>
-              </h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#infected-nonInfected-ulcers"
+                >Infected or Non-Healing Wounds
+              </a>
+            </h4>
           </div>
         </div>
       </div>
@@ -341,116 +409,30 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
         class="col-lg-4 col-md-6 col-12 wow fadeInLeft"
         data-wow-delay="0.2s"
       >
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-capsules"></i> -->
-            <div class="service-main-content-long">
-              <h4>
-                <a href="#">Skin Tears and Trauma Wounds </a>
-              </h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#skin-tears-more-ulcers"
+                >Skin Tears and Trauma Wounds
+              </a>
+            </h4>
           </div>
         </div>
       </div>
       <!-- Single Service -->
       <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="single-service">
+        <div class="single-service service-text">
           <div class="single-service-content">
-            <!-- <i class="far fa-ambulance"></i> -->
-            <div class="service-main-content-so-long">
-              <h4><a href="#">More</a></h4>
-            </div>
+            <h4>
+              <a href="{{ site.baseurl }}/help#skin-tears-more-ulcers">More</a>
+            </h4>
           </div>
         </div>
       </div>
-      <!-- Single Service -->
-      <!-- <div
-        class="col-lg-4 col-md-6 col-12 wow fadeInRight"
-        data-wow-delay="0.2s"
-      >
-        <div class="single-service">
-          <div class="single-service-content">
-            <i class="far fa-vial"></i>
-            <div class="service-main-content">
-              <h4><a href="#">Medical Tests</a></h4>
-              <p>
-                There are many variations of passages of lorem ipsum available.
-              </p>
-              <p></p>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- End Single Service -->
     </div>
   </div>
 </section>
 <!-- End Service Area -->
-
-<!-- Funfact Area -->
-<!-- <section
-  class="funfact-area"
-  style="background-image: url('assets/img/funfact-bg.jpg')"
-> -->
-<!-- <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-12">
-        <div class="section-title funfact-s-title">
-          <span>Acheivement</span>
-          <h3>Our Acheivement</h3>
-          <p>It is a long established fact that a reader will be distracted.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row"> -->
-<!-- Single Fact -->
-<!-- <div class="col-lg-3 col-md-6 col-12 wow fadeInLeft" data-wow-delay="0.2">
-        <div class="single-fact">
-          <div class="main-count">
-            <i class="far fa-hospital-user"></i>
-            <h5><span class="counter">50</span><b>k</b></h5>
-            <p>Visited Patient Per Month</p>
-          </div>
-        </div>
-      </div> -->
-<!-- Single Fact -->
-<!-- <div class="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="single-fact">
-          <div class="main-count">
-            <i class="far fa-user-md"></i>
-            <h5><span class="counter">300</span><b>+</b></h5>
-            <p>Qualified Doctors</p>
-          </div>
-        </div>
-      </div> -->
-<!-- Single Fact -->
-<!-- <div class="col-lg-3 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.5s">
-        <div class="single-fact">
-          <div class="main-count">
-            <i class="far fa-calendar-check"></i>
-            <h5><span class="counter">25</span><b>+</b></h5>
-            <p>Years Of Experience</p>
-          </div>
-        </div>
-      </div> -->
-<!-- Single Fact -->
-<!-- <div
-        class="col-lg-3 col-md-6 col-12 wow fadeInRight"
-        data-wow-delay="0.2s"
-      >
-        <div class="single-fact">
-          <div class="main-count">
-            <i class="far fa-award"></i>
-            <h5><span class="counter">40</span></h5>
-            <p>Total Awards</p>
-          </div>
-        </div>
-      </div> -->
-<!-- End Single Fact -->
-<!-- </div>
-  </div>
-</section> -->
-<!-- End Funfact Area -->
 
 <!-- Department Area -->
 <section class="department-area">
@@ -565,1350 +547,6 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
             <!-- End Menu Tab -->
           </div>
         </div>
-        <!-- <div class="col-12"> -->
-        <!-- Tab Content -->
-        <!-- <div class="department-tab-content">
-            <div class="tab-content"> -->
-        <!-- Tab-1 -->
-        <!-- <div class="tab-pane fade show active detail-content" id="tab1">
-                <div class="row"> -->
-        <!-- Department Content -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInLeft"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="department-inner-content">
-                      <h4>Cardiology</h4>
-                      <span>Best Health Care For You!</span>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text.
-                      </p>
-                      <div class="d-content-list">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>Emergency Care
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Ambulance Services
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>General Medical
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>24/7 Open Support
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Digital Laboratory
-                              </li>
-                              <li><i class="far fa-check"></i>Home Services</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-content-button">
-                        <a href="#" class="theme-btn"
-                          >Read More <i class="far fa-long-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-        <!-- Department Image -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInRight"
-                    data-wow-delay="0.3s"
-                  >
-                    <div class="department-image">
-                      <img src="assets/img/department-1.jpg" alt="#" />
-                      <div class="video-main"> -->
-        <!-- Promo-Video -->
-        <!-- <div class="promo-video">
-                          <div class="waves-block">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                          </div>
-                        </div>
-                        <a
-                          href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                          class="video video-popup mfp-iframe"
-                          ><i class="far fa-play"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-        <!-- Tab-2 -->
-        <!-- <div class="tab-pane fade" id="tab2">
-                <div class="row"> -->
-        <!-- Department Content -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInLeft"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="department-inner-content">
-                      <h4>Dental</h4>
-                      <span>Best Health Care For You!</span>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text.
-                      </p>
-                      <div class="d-content-list">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>Emergency Care
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Ambulance Services
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>General Medical
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>24/7 Open Support
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Digital Laboratory
-                              </li>
-                              <li><i class="far fa-check"></i>Home Services</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-content-button">
-                        <a href="#" class="theme-btn"
-                          >Read More <i class="far fa-long-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-        <!-- Department Image -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInRight"
-                    data-wow-delay="0.3s"
-                  >
-                    <div class="department-image">
-                      <img src="assets/img/department-1.jpg" alt="#" />
-                      <div class="video-main"> -->
-        <!-- Promo-Video -->
-        <!-- <div class="promo-video">
-                          <div class="waves-block">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                          </div>
-                        </div>
-                        <a
-                          href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                          class="video video-popup mfp-iframe"
-                          ><i class="far fa-play"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-        <!-- Tab-3 -->
-        <!-- <div class="tab-pane fade" id="tab3">
-                <div class="row"> -->
-        <!-- Department Content -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInLeft"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="department-inner-content">
-                      <h4>Neurology</h4>
-                      <span>Best Health Care For You!</span>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text.
-                      </p>
-                      <div class="d-content-list">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>Emergency Care
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Ambulance Services
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>General Medical
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>24/7 Open Support
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Digital Laboratory
-                              </li>
-                              <li><i class="far fa-check"></i>Home Services</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-content-button">
-                        <a href="#" class="theme-btn"
-                          >Read More <i class="far fa-long-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-        <!-- Department Image -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInRight"
-                    data-wow-delay="0.3s"
-                  >
-                    <div class="department-image">
-                      <img src="assets/img/department-1.jpg" alt="#" />
-                      <div class="video-main"> -->
-        <!-- Promo-Video -->
-        <!-- <div class="promo-video">
-                          <div class="waves-block">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                          </div>
-                        </div>
-                        <a
-                          href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                          class="video video-popup mfp-iframe"
-                          ><i class="far fa-play"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-        <!-- Tab-4 -->
-        <!-- <div class="tab-pane fade" id="tab4">
-                <div class="row"> -->
-        <!-- Department Content -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInLeft"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="department-inner-content">
-                      <h4>Medicine</h4>
-                      <span>Best Health Care For You!</span>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text.
-                      </p>
-                      <div class="d-content-list">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>Emergency Care
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Ambulance Services
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>General Medical
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>24/7 Open Support
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Digital Laboratory
-                              </li>
-                              <li><i class="far fa-check"></i>Home Services</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-content-button">
-                        <a href="#" class="theme-btn"
-                          >Read More <i class="far fa-long-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-        <!-- Department Image -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInRight"
-                    data-wow-delay="0.3s"
-                  >
-                    <div class="department-image">
-                      <img src="assets/img/department-1.jpg" alt="#" />
-                      <div class="video-main"> -->
-        <!-- Promo-Video -->
-        <!-- <div class="promo-video">
-                          <div class="waves-block">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                          </div>
-                        </div>
-                        <a
-                          href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                          class="video video-popup mfp-iframe"
-                          ><i class="far fa-play"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-        <!-- Tab-5 -->
-        <!-- <div class="tab-pane fade" id="tab5">
-                <div class="row"> -->
-        <!-- Department Content -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInLeft"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="department-inner-content">
-                      <h4>Eye Care</h4>
-                      <span>Best Health Care For You!</span>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text.
-                      </p>
-                      <div class="d-content-list">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>Emergency Care
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Ambulance Services
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>General Medical
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>24/7 Open Support
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Digital Laboratory
-                              </li>
-                              <li><i class="far fa-check"></i>Home Services</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-content-button">
-                        <a href="#" class="theme-btn"
-                          >Read More <i class="far fa-long-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-        <!-- Department Image -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInRight"
-                    data-wow-delay="0.3s"
-                  >
-                    <div class="department-image">
-                      <img src="assets/img/department-1.jpg" alt="#" />
-                      <div class="video-main"> -->
-        <!-- Promo-Video -->
-        <!-- <div class="promo-video">
-                          <div class="waves-block">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                          </div>
-                        </div>
-                        <a
-                          href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                          class="video video-popup mfp-iframe"
-                          ><i class="far fa-play"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-        <!-- Tab-6 -->
-        <!-- <div class="tab-pane fade" id="tab6">
-                <div class="row"> -->
-        <!-- Department Content -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInLeft"
-                    data-wow-delay="0.2s"
-                  >
-                    <div class="department-inner-content">
-                      <h4>Pediatrics</h4>
-                      <span>Best Health Care For You!</span>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered alteration in
-                        some form, by injected humour, or randomised words which
-                        don't look even slightly believable. If you are going to
-                        use a passage of Lorem Ipsum, you need to be sure there
-                        isn't anything embarrassing hidden in the middle of
-                        text.
-                      </p>
-                      <div class="d-content-list">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>Emergency Care
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Ambulance Services
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>General Medical
-                              </li>
-                            </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-12">
-                            <ul>
-                              <li>
-                                <i class="far fa-check"></i>24/7 Open Support
-                              </li>
-                              <li>
-                                <i class="far fa-check"></i>Digital Laboratory
-                              </li>
-                              <li><i class="far fa-check"></i>Home Services</li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="d-content-button">
-                        <a href="#" class="theme-btn"
-                          >Read More <i class="far fa-long-arrow-right"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div> -->
-        <!-- Department Image -->
-        <!-- <div
-                    class="col-lg-6 col-12 wow fadeInRight"
-                    data-wow-delay="0.3s"
-                  >
-                    <div class="department-image">
-                      <img src="assets/img/department-1.jpg" alt="#" />
-                      <div class="video-main"> -->
-        <!-- Promo-Video -->
-        <!-- <div class="promo-video">
-                          <div class="waves-block">
-                            <div class="waves wave-1"></div>
-                            <div class="waves wave-2"></div>
-                            <div class="waves wave-3"></div>
-                          </div>
-                        </div>
-                        <a
-                          href="https://www.youtube.com/watch?v=ckHzmP1evNU"
-                          class="video video-popup mfp-iframe"
-                          ><i class="far fa-play"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- End Tab Content -->
-        <!-- </div>
-      </div>
-    </div> -->
-        <!-- Department Details Main -->
-        <!-- </div>
-</section> -->
-        <!-- End Department Area -->
-
-        <!-- Testimonial Area -->
-        <!-- <section
-  class="testimonial-area"
-  style="background-image: url('assets/img/testimonial/testimonial-bg.jpg')"
->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-12">
-        <div class="section-title testimonial-s-title">
-          <span>Testimonials</span>
-          <h3>What People Say?</h3>
-          <p>It is a long established fact that a reader will be distracted.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="testimonial-slider owl-carousel owl-theme"> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-1.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>Nathan Parson</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-2.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>James Hummer</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-3.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>Tonisha Mickelson</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-1.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>James M Vanderburg</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-2.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>Barbara J Carleton</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-3.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>Carrie F Holzman</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-1.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>Marcia N Ellis</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-2.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>Jennifer W Shepherd</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Testimonial -->
-        <!-- <div class="single-testimonial">
-            <div class="testimonial-content"> -->
-        <!-- Testimonial Top Content -->
-        <!-- <div class="testimonial-t-content">
-                <ul class="t-ratting">
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                  <li><i class="fas fa-star"></i></li>
-                </ul>
-                <div class="t-right-icon">
-                  <i class="far fa-quote-right"></i>
-                </div>
-              </div>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p> -->
-        <!-- Testimonial Bottom Content -->
-        <!-- <div class="testimonial-b-content">
-                <div class="client-image">
-                  <img src="assets/img/testimonial/testi-3.jpg" alt="#" />
-                </div>
-                <div class="client-title">
-                  <h5>John Williams</h5>
-                  <span>Patient</span>
-                </div>
-              </div>
-            </div>
-          </div> -->
-        <!-- End Single Testimonial -->
-        <!-- </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-        <!-- End Testimonial Area -->
-
-        <!-- Doctor Area -->
-        <!-- <section class="doctors-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-12">
-        <div class="section-title">
-          <span>Doctors</span>
-          <h3>Our Specialist Doctors</h3>
-          <p>It is a long established fact that a reader will be distracted.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
-        <div class="doctors-slider owl-carousel owl-theme"> -->
-        <!-- Single Doctors -->
-        <!-- <div class="single-doctor">
-            <div class="doctor-head">
-              <img src="assets/img/doctors/1.jpg" alt="#" />
-              <div class="d-head-btn">
-                <a href="appoinment.html" class="theme-btn primary"
-                  >Get Appointment</a
-                >
-              </div>
-            </div>
-            <div class="doctor-content">
-              <h5><a href="doctor-details.html">Linda Evenson</a></h5>
-              <span>Consultant</span>
-              <div class="doctor-social">
-                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                <a href="#"> <i class="fab fa-twitter"></i> </a>
-                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                <a href="#"> <i class="fab fa-instagram"></i> </a>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Doctors -->
-        <!-- <div class="single-doctor">
-            <div class="doctor-head">
-              <img src="assets/img/doctors/2.jpg" alt="#" />
-              <div class="d-head-btn">
-                <a href="appoinment.html" class="theme-btn primary"
-                  >Get Appointment</a
-                >
-              </div>
-            </div>
-            <div class="doctor-content">
-              <h5><a href="doctor-details.html">Michael Powell</a></h5>
-              <span>Consultant</span>
-              <div class="doctor-social">
-                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                <a href="#"> <i class="fab fa-twitter"></i> </a>
-                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                <a href="#"> <i class="fab fa-instagram"></i> </a>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Doctors -->
-        <!-- <div class="single-doctor">
-            <div class="doctor-head">
-              <img src="assets/img/doctors/3.jpg" alt="#" />
-              <div class="d-head-btn">
-                <a href="appoinment.html" class="theme-btn primary"
-                  >Get Appointment</a
-                >
-              </div>
-            </div>
-            <div class="doctor-content">
-              <h5><a href="doctor-details.html">Stephanie Soto</a></h5>
-              <span>Consultant</span>
-              <div class="doctor-social">
-                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                <a href="#"> <i class="fab fa-twitter"></i> </a>
-                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                <a href="#"> <i class="fab fa-instagram"></i> </a>
-              </div>
-            </div>
-          </div> -->
-        <!-- Single Doctors -->
-        <!-- <div class="single-doctor">
-            <div class="doctor-head">
-              <img src="assets/img/doctors/4.jpg" alt="#" />
-              <div class="d-head-btn">
-                <a href="appoinment.html" class="theme-btn primary"
-                  >Get Appointment</a
-                >
-              </div>
-            </div>
-            <div class="doctor-content">
-              <h5><a href="doctor-details.html">Mildred Braunstein</a></h5>
-              <span>Consultant</span>
-              <div class="doctor-social">
-                <a href="#"> <i class="fab fa-facebook-f"></i> </a>
-                <a href="#"> <i class="fab fa-twitter"></i> </a>
-                <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
-                <a href="#"> <i class="fab fa-instagram"></i> </a>
-              </div>
-            </div>
-          </div> -->
-        <!-- End Single Doctors -->
-        <!-- </div>
-      </div>
-    </div>
-    <div class="row"> -->
-        <!-- Doctors Bottom Button -->
-        <!-- <div class="col-12">
-        <div class="doctors-bottom-btn">
-          <a href="doctor.html" class="theme-btn"
-            >View All Doctors <i class="far fa-long-arrow-right"></i
-          ></a>
-        </div>
-      </div> -->
-        <!-- End Doctors Bottom Button -->
-        <!-- </div>
-  </div>
-</section> -->
-        <!-- End Doctor Area -->
-
-        <!-- Our Mission Area -->
-
-        <!-- End Our Mission Area -->
-
-        <!-- Pricing Area -->
-        <!-- <section class="pricing-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-12">
-        <div class="section-title">
-          <span>Pricing</span>
-          <h3>Choose Your Pricing Plan</h3>
-          <p>It is a long established fact that a reader will be distracted.</p>
-        </div>
-      </div>
-    </div>
-    <div class="pricing-inner">
-      <div class="row"> -->
-        <!-- Single Pricing -->
-        <!-- <div
-          class="col-lg-3 col-md-6 col-12 wow fadeInUp"
-          data-wow-delay="0.2s"
-        >
-          <div class="single-pricing">
-            <div class="pricing-head">
-              <h5>Cardiology</h5>
-              <div class="p-price">
-                <p class="amount">$150</p>
-                <span class="duration">/Per Month</span>
-              </div>
-            </div>
-            <div class="pricing-content">
-              <ul>
-                <li>Examinations</li>
-                <li>Chiropractic Care</li>
-                <li>Massage Therapy</li>
-                <li>Naturopathy</li>
-                <li>Acupuncture</li>
-              </ul>
-            </div>
-            <div class="pricing-button">
-              <a href="#" class="theme-btn">Get Started</a>
-            </div>
-          </div>
-        </div> -->
-        <!-- Single Pricing -->
-        <!-- <div
-          class="col-lg-3 col-md-6 col-12 wow fadeInUp"
-          data-wow-delay="0.3s"
-        >
-          <div class="single-pricing">
-            <div class="pricing-head">
-              <h5>Detal Care</h5>
-              <div class="p-price">
-                <p class="amount">$200</p>
-                <span class="duration">/Per Month</span>
-              </div>
-            </div>
-            <div class="pricing-content">
-              <ul>
-                <li>Examinations</li>
-                <li>Chiropractic Care</li>
-                <li>Massage Therapy</li>
-                <li>Naturopathy</li>
-                <li>Acupuncture</li>
-              </ul>
-            </div>
-            <div class="pricing-button">
-              <a href="#" class="theme-btn">Get Started</a>
-            </div>
-          </div>
-        </div> -->
-        <!-- Single Pricing -->
-        <!-- <div
-          class="col-lg-3 col-md-6 col-12 wow fadeInUp"
-          data-wow-delay="0.4s"
-        >
-          <div class="single-pricing active">
-            <p class="popular-sticker">Popular</p>
-            <div class="pricing-head">
-              <h5>Body Checkup</h5>
-              <div class="p-price">
-                <p class="amount">$300</p>
-                <span class="duration">/Per Month</span>
-              </div>
-            </div>
-            <div class="pricing-content">
-              <ul>
-                <li>Examinations</li>
-                <li>Chiropractic Care</li>
-                <li>Massage Therapy</li>
-                <li>Naturopathy</li>
-                <li>Acupuncture</li>
-              </ul>
-            </div>
-            <div class="pricing-button">
-              <a href="#" class="theme-btn">Get Started</a>
-            </div>
-          </div>
-        </div> -->
-        <!-- Single Pricing -->
-        <!-- <div
-          class="col-lg-3 col-md-6 col-12 wow fadeInUp"
-          data-wow-delay="0.5s"
-        >
-          <div class="single-pricing">
-            <div class="pricing-head">
-              <h5>Blood Test</h5>
-              <div class="p-price">
-                <p class="amount">$200</p>
-                <span class="duration">/Per Month</span>
-              </div>
-            </div>
-            <div class="pricing-content">
-              <ul>
-                <li>Examinations</li>
-                <li>Chiropractic Care</li>
-                <li>Massage Therapy</li>
-                <li>Naturopathy</li>
-                <li>Acupuncture</li>
-              </ul>
-            </div> -->
-        <!-- Pricing Bottom Button -->
-        <!-- <div class="pricing-button">
-              <a href="#" class="theme-btn">Get Started</a>
-            </div>
-          </div>
-        </div> -->
-        <!-- End Single Pricing -->
-        <!-- </div>
-    </div>
-  </div>
-</section> -->
-        <!-- End Pricing Area -->
-
-        <!-- Appointment Area -->
-        <!-- <section
-  class="appoinment-area"
-  style="background-image: url('assets/img/appoinment-bg.jpg')"
->
-  <div class="container">
-    <div class="row">
-      <div
-        class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-12 wow fadeInUp"
-        data-wow-delay="0.2s"
-      > -->
-        <!-- Appointment Form -->
-        <!-- <form action="#">
-          <div class="appoinment-inner">
-            Appointment Title -->
-        <!-- <div class="appoinment-title">
-              <h3>Make An Appointment</h3>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos
-                dolores et quas molestias excepturi sint occaecati.
-              </p>
-            </div>
-            <div class="row">
-              <div class="col-lg-6 col-12">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="Name"
-                    placeholder="Name"
-                    required="required"
-                  />
-                </div>
-              </div>
-              <div class="col-lg-6 col-12">
-                <div class="form-group">
-                  <input
-                    type="email"
-                    name="Email"
-                    placeholder="Email"
-                    required="required"
-                  />
-                </div>
-              </div>
-              <div class="col-lg-6 col-12">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="Phone"
-                    placeholder="Phone"
-                    required="required"
-                  />
-                </div>
-              </div>
-              <div class="col-lg-6 col-12">
-                <div class="form-group">
-                  <select>
-                    <option value="1" selected="selected">
-                      Choose Depertment
-                    </option>
-                    <option value="2">Cardiology</option>
-                    <option value="3">Neurology</option>
-                    <option value="4">Dental Care</option>
-                    <option value="5">Eye Care</option>
-                  </select>
-                </div>
-              </div>
-              <div class="col-lg-6 col-12">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    name="doctor name"
-                    placeholder="Doctor's Name"
-                    required="required"
-                  />
-                </div>
-              </div>
-              <div class="col-lg-6 col-12">
-                <div class="form-group">
-                  <input type="text" placeholder="Date" id="datepicker" />
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="form-group">
-                  <textarea
-                    name="message"
-                    placeholder="Write Your Message Here..."
-                    required="required"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="col-12">
-                <div class="contact-btn">
-                  <button type="submit" class="theme-btn">
-                    Book An Appointment
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </form>  -->
-        <!-- End Appointment Form -->
-        <!-- </div>
-    </div>
-  </div>
-</section> -->
-        <!-- End Appointment Area -->
-
-        <!-- Blog Area -->
-        <!-- <section class="blog-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 offset-lg-2 col-12">
-        <div class="section-title">
-          <span>Blogs</span>
-          <h3>Latest Posts</h3>
-          <p>It is a long established fact that a reader will be distracted.</p>
-        </div>
-      </div>
-    </div>
-    <div class="row">
-      <div
-        class="col-lg-4 col-md-6 col-12 wow fadeInLeft"
-        data-wow-delay="0.2s"
-      > -->
-        <!-- Single Blog -->
-        <!-- <div class="single-blog">
-          <div class="s-blog-head">
-            <div class="s-blog-img">
-              <img src="assets/img/blog/1.jpg" alt="#" />
-            </div>
-            <div class="top-meta">
-              <span>Feb 20, 2023</span>
-            </div>
-          </div>
-          <div class="single-blog-content">
-            <div class="single-blog-title">
-              <h3>
-                <a href="blog-single-sidebar.html"
-                  >At vero eos et accusamus et iusto odio dignissimos</a
-                >
-              </h3>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p>
-            </div> -->
-        <!-- Blog Author -->
-        <!-- <div class="blog-author">
-              <div class="b-author-left">
-                <img src="assets/img/blog/author.jpg" alt="#" />
-              </div>
-              <div class="b-author-content">
-                <h6><span>by</span> <a href="#">Dr Linda A Evenson</a></h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-delay="0.3s"> -->
-        <!-- Single Blog -->
-        <!-- <div class="single-blog">
-          <div class="s-blog-head">
-            <div class="s-blog-img">
-              <img src="assets/img/blog/2.jpg" alt="#" />
-            </div>
-            <div class="top-meta">
-              <span>Feb 20, 2023</span>
-            </div>
-          </div>
-          <div class="single-blog-content">
-            <div class="single-blog-title">
-              <h3>
-                <a href="blog-single-sidebar.html"
-                  >At vero eos et accusamus et iusto odio dignissimos</a
-                >
-              </h3>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p>
-            </div> -->
-        <!-- Blog Author -->
-        <!-- <div class="blog-author">
-              <div class="b-author-left">
-                <img src="assets/img/blog/author.jpg" alt="#" />
-              </div>
-              <div class="b-author-content">
-                <h6><span>by</span> <a href="#">Dr Linda A Evenson</a></h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="col-lg-4 col-md-6 col-12 wow fadeInRight"
-        data-wow-delay="0.2s"
-      > -->
-        <!-- Single Blog -->
-        <!-- <div class="single-blog">
-          <div class="s-blog-head">
-            <div class="s-blog-img">
-              <img src="assets/img/blog/4.jpg" alt="#" />
-            </div>
-            <div class="top-meta">
-              <span>Feb 20, 2023</span>
-            </div>
-          </div>
-          <div class="single-blog-content">
-            <div class="single-blog-title">
-              <h3>
-                <a href="blog-single-sidebar.html"
-                  >At vero eos et accusamus et iusto odio dignissimos</a
-                >
-              </h3>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour.
-              </p>
-            </div> -->
-        <!-- Blog Author -->
-        <!-- <div class="blog-author">
-              <div class="b-author-left">
-                <img src="assets/img/blog/author.jpg" alt="#" />
-              </div>
-              <div class="b-author-content">
-                <h6><span>by</span> <a href="#">Dr Linda A Evenson</a></h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section> -->
-        <!-- End Blog Area -->
-
-        <!-- Partner  Area -->
-        <!-- <div class="partner-area">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="partner-slider owl-carousel owl-theme">
-          <div class="single-partner">
-            <a href="#"><img src="assets/img/partner/1.png" alt="#" /></a>
-          </div>
-          <div class="single-partner">
-            <a href="#"><img src="assets/img/partner/1.png" alt="#" /></a>
-          </div>
-          <div class="single-partner">
-            <a href="#"><img src="assets/img/partner/1.png" alt="#" /></a>
-          </div>
-          <div class="single-partner">
-            <a href="#"><img src="assets/img/partner/1.png" alt="#" /></a>
-          </div>
-          <div class="single-partner">
-            <a href="#"><img src="assets/img/partner/1.png" alt="#" /></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-        <!-- End Partner Area -->
 
         <!-- Newsletter Area -->
       </div>
