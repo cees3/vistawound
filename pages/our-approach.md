@@ -67,7 +67,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
         <div class="about-content">
           <div class="about-c-title">
             <span>Our Story</span>
-            <h3>Tulsa Wound Care, Built on Experience !</h3>
+            <h3>Tulsa Wound Care, Built on Experience!</h3>
             <p>
               Vista Wound Specialists was founded by two physicians who saw a
               gap - and an opportunity - in the way wound care was delivered.
@@ -76,9 +76,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
               One, an experienced Emergency Medicine physician, had spent years
               treating complex wounds in high-stakes environments. The other, a
               specialist in Occupational and Preventive Medicine, had worked to
-              improve health outcomes across diverse populations. Both are
-              board-certified in wound care, bringing advanced training and a
-              commitment to evidence-based practice to every patient encounter.
+              improve health outcomes across diverse populations. Certified in wound care, our providers bring advanced training and a commitment to evidence-based practice to every patient encounter.
             </p>
             <p>
               Together, they shared a common frustration: too many patients were
@@ -114,7 +112,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
               >Contact Us!</a
             >
           </div> -->
-        </div>
+        <!-- </div> -->
       </div>
     </div>
   </div>
@@ -130,7 +128,6 @@ description: Discover the Vista difference. Our physician-led team is built on i
           class="img-fluid"
         />
       </div>
-      
       <!-- Mission Content -->
       <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
         <div class="mission-content">
@@ -161,7 +158,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
               referring providers, facilities, and families.
             </li>
             <li>
-              <i class="far fa-check-circle"></i>AA team culture that values
+              <i class="far fa-check-circle"></i>A team culture that values
               professionalism, accountability, and responsiveness.
             </li>
           </ul>

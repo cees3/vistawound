@@ -32,29 +32,28 @@ permalink: /help/
 </section>
 
 <section class="policy-area">
+
   <div class="container">
     <div class="mb-4">
       <h3 class="mb-2" style="font-size: 40px; color: #2c2d3f;">Expert Care Brought to Your Door</h3>
       <p class="help-paragraph">
         At Vista Wound Specialists, we deliver expert mobile wound care directly
         to patients throughout
-        <strong> Tulsa and across Northeast Oklahoma.</strong> Our experienced
+        Tulsa and across Northeast Oklahoma.Our experienced
         providers are equipped to treat a wide range of complex and non-healing
         wounds right in the comfort of your home or care facility, reducing the
-        need for stressful travel and hospital visits.<strong>Explore our woundcare services below.</strong>
+        need for stressful travel and hospital visits.
+        <strong>Explore our woundcare services below.</strong>
       </p>
     </div>
   </div>
+
   <div class="container">
-    <!-- <div class="mb-4">
-      <h3 class="mb-2">Our Wound Care Services</h3>
-    </div> -->
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="diabetic-foot-ulcers">
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
           <div class="help-right-section wow fadeInLeft" data-wow-delay="0.1s">
-            
             <div class="mission-content">
               <div class="mission-img-mobile">
                 <img
@@ -98,7 +97,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="pressure-injuries">
       <div class="container">
         <div class="row">
           <!-- Mission Image -->
@@ -148,7 +147,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="venous-stasis-ulcers">
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
@@ -170,7 +169,7 @@ permalink: /help/
                   Appearing on the lower legs, these wounds are caused by poor
                   circulation in the veins and are often slow to heal. Our team
                   provides on-site, evidence-based care, including
-                  <strong> expert compression therapy,</strong>to reduce
+                  <strong> expert compression therapy,</strong> to reduce
                   swelling, manage drainage, and successfully close the wound,
                   improving comfort and quality of life for patients in their
                   homes. → Struggling with a leg ulcer?
@@ -194,7 +193,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="arterial-ulcers">
       <div class="container">
         <div class="row">
           <!-- Mission Image -->
@@ -213,7 +212,6 @@ permalink: /help/
           <!-- Mission Content -->
           <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
-              
               <div class="mission-c-top">
                 <div class="mission-img-mobile">
                   <img
@@ -224,7 +222,7 @@ permalink: /help/
                 </div>
                 <h3>
                   Rapid Response for
-                  <br /><strong>Arterial Wounds </strong>
+                  <br /><strong>Arterial Ulcers</strong>
                 </h3>
                 <p>
                   Resulting from poor blood flow in the arteries, these painful
@@ -244,7 +242,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="post-operative-complications">
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
@@ -289,7 +287,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="infected-nonInfected-ulcers">
       <div class="container">
         <div class="row">
           <!-- Mission Image -->
@@ -321,7 +319,7 @@ permalink: /help/
                   <br /><strong>Infected or Non-Healing Wounds</strong>
                 </h3>
                 <p>
-                  Any wound that hasn’t shown improvement in weeks needs expert
+                  Any wound that hasn't shown improvement in weeks needs expert
                   attention. Our providers identify the barriers to healing,
                   treat any infection, and apply advanced techniques to get the
                   wound moving in the right direction. We are equipped to
@@ -340,7 +338,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area">
+    <section class="our-help-mission-area" id="skin-tears-more-ulcers">
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
@@ -362,7 +360,7 @@ permalink: /help/
                   From fragile skin that tears easily to accidental cuts and
                   scrapes, our team treats a wide variety of wounds with gentle,
                   evidence-based care. We meet patients where they are—whether
-                  in a skilled nursing facility in Muskogee or a private home in
+                  in a nursing facility in Muskogee or a private home in
                   Broken Arrow—and help them heal with dignity. → Need care for
                   a painful skin tear or other wound?
                   <a href="{{ site.baseurl }}/contact-us/" class="about-links">
@@ -386,6 +384,7 @@ permalink: /help/
       </div>
     </section>
   </div>
+
   <div class="container">
     <div class="mb-4">
       <h3 class="mb-2 " style="font-size: 40px; color: #2c2d3f;">How Our Care Process Works</h3>
@@ -394,7 +393,7 @@ permalink: /help/
         care for every patient:
       </p>
     </div>
-    <section class="faq-area" style="padding-top: 10px; padding-bottom: 10px;">
+    <section class="faq-area" style="padding-top: 10px !important; padding-bottom: 60px !important;">
       <div class="container">
         <div class="">
           <div class="col-12 wow fadeInUp" data-wow-delay="0.2s">
@@ -406,6 +405,7 @@ permalink: /help/
                     <div class="faq-heading" id="FaqTitle1">
                       <h4 class="faq-title">
                         <a
+                          class="collapsed"
                           data-bs-toggle="collapse"
                           data-parent="#accordion"
                           href="#faq1"
@@ -413,12 +413,7 @@ permalink: /help/
                         >
                       </h4>
                     </div>
-                    <div
-                      id="faq1"
-                      class="panel-collapse collapse show in"
-                      role="tabpanel"
-                      aria-labelledby="FaqTitle1"
-                    >
+                    <div id="faq1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="FaqTitle1">
                       <div class="faq-body">
                         From a provider, facility, home health agency, or directly from a family member via our <a href="{{ site.baseurl }}/contact-us/" class="about-links">Contact Page.</a>
                       </div>
@@ -467,7 +462,7 @@ permalink: /help/
                       aria-labelledby="FaqTitle3"
                     >
                       <div class="faq-body">
-                        WA provider visits the patient to evaluate the wound and overall condition.
+                        A provider visits the patient to evaluate the wound and overall condition.
                       </div>
                     </div>
                   </div>
@@ -491,12 +486,12 @@ permalink: /help/
                     >
                       <div class="faq-body">
                         An evidence-based treatment plan is created, which may include
-                        <a href="{{ site.baseurl }}/faq/" class="about-links">advanced treatments </a>when appropriate.
+                        advanced treatments when appropriate.
                       </div>
                     </div>
                   </div>
                   <div class="panel panel-default">
-                    <div class="faq-heading" id="FaqTitle4">
+                    <div class="faq-heading" id="FaqTitle5">
                       <h4 class="faq-title">
                         <a
                           class="collapsed"
@@ -511,7 +506,7 @@ permalink: /help/
                       id="faq5"
                       class="panel-collapse collapse"
                       role="tabpanel"
-                      aria-labelledby="FaqTitle4"
+                      aria-labelledby="FaqTitle5"
                     >
                       <div class="faq-body">
                         We schedule regular follow-ups to assess healing, adjust care, and document all progress.
@@ -519,7 +514,7 @@ permalink: /help/
                     </div>
                   </div>
                   <div class="panel panel-default">
-                    <div class="faq-heading" id="FaqTitle4">
+                    <div class="faq-heading" id="FaqTitle6">
                       <h4 class="faq-title">
                         <a
                           class="collapsed"
@@ -534,7 +529,7 @@ permalink: /help/
                       id="faq6"
                       class="panel-collapse collapse"
                       role="tabpanel"
-                      aria-labelledby="FaqTitle4"
+                      aria-labelledby="FaqTitle6"
                     >
                       <div class="faq-body">
                         We share clear, timely updates with referring providers, home health teams, and facilities.
@@ -542,7 +537,7 @@ permalink: /help/
                     </div>
                   </div>
                   <div class="panel panel-default">
-                    <div class="faq-heading" id="FaqTitle4">
+                    <div class="faq-heading" id="FaqTitle7">
                       <h4 class="faq-title">
                         <a
                           class="collapsed"
@@ -557,15 +552,13 @@ permalink: /help/
                       id="faq7"
                       class="panel-collapse collapse"
                       role="tabpanel"
-                      aria-labelledby="FaqTitle4"
+                      aria-labelledby="FaqTitle7"
                     >
                       <div class="faq-body">
                         Once the wound is healed or care is transitioned, we provide a full summary to ensure continuity of care.
                       </div>
                     </div>
                   </div>
-                  </div>
-                 
                 </div>
               </div>
             </div>
@@ -573,8 +566,10 @@ permalink: /help/
         </div>
       </div>
     </section>
+
   </div>
-  <section class="features-area">
+</section>
+<section class="features-area">
     <div class="container">
       <div class="row">
         <div class="col-12 wow zoomIn" data-wow-delay="0.1s">
@@ -657,7 +652,7 @@ permalink: /help/
       </div>
     </div>
   </section>
-</section>
+
 <section class="news-letter-area newsletter-bg"  style="background-image: url('{{ site.baseurl }}/assets/img/ready-to-started.png'); padding: 150px 0; background-size: cover; background-position: center; background-repeat: no-repeat;">
     <div class="container">
       <div class="row align-items-center">
@@ -681,4 +676,3 @@ permalink: /help/
       </div>
     </div>
   </section>
-  

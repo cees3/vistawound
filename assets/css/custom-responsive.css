@@ -25,9 +25,41 @@
     display: none;
   }
 
+  .about-content-para {
+    margin-left: 40px;
+  }
+
+  .department-tab-menu .menu-tab {
+    margin-left: 53px;
+    /* margin: 0; */
+    display: block;
+  }
+
   /* .h-menu-right {
     display: none;
   } */
+}
+
+/* macbook Screen */
+@media only screen and (min-width: 1100px) and (max-width: 1400px) {
+  .department-tab-menu .menu-tab .nav-item {
+    margin: 0;
+    display: inline-block;
+    padding: 7px;
+    /* margin-right: 24px; */
+  }
+  .department-tab-menu .menu-tab {
+    margin-left: 35px;
+    /* margin: 0; */
+    display: block;
+  }
+
+  .single-service-content h4 a {
+    font-size: 16px;
+    color: #2c2d3f;
+    font-weight: 600;
+    display: block;
+  }
 }
 
 /* Tablet Screen */
@@ -60,6 +92,9 @@
   }
   .h-menu-right {
     display: none;
+  }
+  .about-content-para {
+    margin-left: 40px;
   }
   .help-right-section {
     display: flex;
@@ -161,9 +196,12 @@
   .single-fact {
     padding: 30px;
   }
-  .department-tab-menu .menu-tab .nav-item {
-    margin-right: 25px;
+  .department-tab-menu .menu-tab {
+    margin-left: 35px;
+    /* margin: 0; */
+    display: block;
   }
+
   .department-tab-menu .menu-tab .nav-item:nth-child(4) {
     margin-right: 0;
   }
@@ -216,6 +254,10 @@
   }
   .single-widget.footer-q-links {
     padding: 0;
+    margin-left: 90px;
+  }
+  .footer-contact {
+    padding: 0;
   }
   .copyright {
     padding-bottom: 30px;
@@ -258,7 +300,7 @@
   .department-tab-menu .menu-tab .nav-item {
     margin: 0;
     display: inline-block;
-    padding: 45px;
+    padding: 35px;
     /* margin-right: 24px; */
   }
 
@@ -311,6 +353,9 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
+  }
+  .about-content-para {
+    margin-left: 0px;
   }
   .post-title {
     margin: 2px;
@@ -683,6 +728,10 @@
     padding: 40px 0px 70px;
   }
   .single-widget.footer-q-links {
+    padding: 0;
+    margin-left: 0;
+  }
+  .footer-contact {
     padding: 0;
   }
   .copyright {
