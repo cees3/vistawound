@@ -526,6 +526,11 @@ Version         : 1.1
 .about-image-content {
   position: relative;
 }
+.our-approach-first-image {
+  height: 100%;
+  border-radius: 15px;
+}
+
 .about-img img {
   border-radius: 15px;
 }
@@ -1006,7 +1011,7 @@ Version         : 1.1
   ===============================*/
 .department-area {
   padding: 100px 0px;
-  background: #fff;
+  background: rgb(236, 247, 255);
 }
 .department-tab-menu {
   margin: 30px 0px 60px 0px;
@@ -1810,6 +1815,10 @@ Version         : 1.1
   display: inline-block;
   font-weight: 500;
 }
+.mission-img {
+  height: 100%;
+  width: 100%;
+}
 .mission-img img {
   border-radius: 15px;
   object-fit: cover;
@@ -2221,6 +2230,7 @@ Version         : 1.1
 }
 .blog-archive-area {
   padding: 70px 0px 100px;
+  margin-top: 40px;
 }
 
 /* Blog Single Area */
@@ -4011,7 +4021,6 @@ Version         : 1.1
   font-family: Georgia, serif;
   line-height: 1.8;
   color: #333;
-  padding: 2rem;
 }
 .blog-post h2 {
   margin: 20px 0px;
@@ -4025,6 +4034,9 @@ Version         : 1.1
   margin: 0;
   color: #2c2d3f;
   font-family: "Barlow", sans-serif;
+}
+.meta {
+  margin-bottom: 20px;
 }
 .post-title {
   margin: 2px;

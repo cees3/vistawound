@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Help
+title: How We Help
 description: We treat complex wounds including diabetic foot ulcers, pressure injuries, and post-op complications. Learn about our advanced, at-home services in Northeast Oklahoma.
 permalink: /help/
 ---

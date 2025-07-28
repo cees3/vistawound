@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Wound Care at Home: A Guide for Tulsa Families"
+title: "For Patients & Families"
 date: 2025-07-17
-breadcrumb-title: Family
+breadcrumb-title: For Patients & Families
 categories: [For Patients & Families]
 author: Vista Wound Specialists
 blog-description: "At Vista Wound Specialists, we understand these challenges because we believe that high-quality medical care should fit into your life, not disrupt it. We were founded on a simple idea bring trustworthy, expert at-home wound care to families across Tulsa and Northeast Oklahoma, so your loved one can heal with dignity, right where they belong."
@@ -11,9 +11,14 @@ image: "/assets/img/family-blog-first.png"
 permalink: /blog/families/
 ---
 
-When a loved one is dealing with a serious or non-healing wound, the stress can be overwhelming. You worry about pain, infection, and endless trips to the doctor's office. You want the best possible care for them, but you also want them to be comfortable and safe in a familiar place. How can you manage it all?
+When a loved one is dealing with a serious or non-healing wound, the stress can be overwhelming. You worry about pain, infection, and endless trips to the doctor's office. You want the best possible care for them, but you also want them to be comfortable and safe in a familiar place. How can you manage it all? At Vista Wound Specialists, we understand these challenges because we believe that high-quality medical care should fit into your life, not disrupt it. We were founded on a simple idea: bring trustworthy, expert **at-home wound care to families across Tulsa and Northeast Oklahoma,** so your loved one can heal with dignity, right where they belong.
 
-At Vista Wound Specialists, we understand these challenges because we believe that high-quality medical care should fit into your life, not disrupt it. We were founded on a simple idea: bring trustworthy, expert **at-home wound care to families across Tulsa and Northeast Oklahoma,** so your loved one can heal with dignity, right where they belong.
+<div class="single-content">
+<blockquote>
+										<i class="far fa-quote-right"></i>
+										<h3>“We were founded on a simple idea: bring trustworthy, expert at-home wound care to families across Tulsa and Northeast Oklahoma, so your loved one can heal with dignity, right where they belong.”</h3>
+	</blockquote>
+</div>
 
 ## Expert Care That Comes to You
 
@@ -26,17 +31,17 @@ This means:
 - <i class="far fa-check-circle" style="color: #141959"></i> Reduced risk of exposure to other illnesses.
 - <i class="far fa-check-circle" style="color: #141959"></i> Consistent, one-on-one time with a dedicated provider.
 
+![Home health nurse walking toward a patient's home]({{ site.baseurl }}/assets/img/family-blog-second.png)
+
 ## What We Mean By "Treating You Like Family"
 
 For us, this is more than just a phrase; it’s the standard for our care. It’s about building trust and ensuring you feel supported every step of the way.
 
-<i class="far fa-check-circle" style="color: #141959"></i> **Compassion and Respect:** We take the time to listen to your concerns, answer your questions, and explain our actions in simple, clear terms. We treat every patient with the gentleness and respect they deserve.
+- <i class="far fa-check-circle" style="color: #141959"></i> **Compassion and Respect:** We take the time to listen to your concerns, answer your questions, and explain our actions in simple, clear terms. We treat every patient with the gentleness and respect they deserve.
 
-<i class="far fa-check-circle" style="color: #141959"></i> **Keeping You Informed:** You will always know what’s happening with your loved one's treatment plan. We communicate clearly with both the patient and any designated family members, ensuring everyone is on the same page.
+- <i class="far fa-check-circle" style="color: #141959"></i> **Keeping You Informed:** You will always know what’s happening with your loved one's treatment plan. We communicate clearly with both the patient and any designated family members, ensuring everyone is on the same page.
 
-<i class="far fa-check-circle" style="color: #141959"></i> **Doing What's Right:** Our practice is built on integrity. We follow through on our promises, show up when we say we will, and always prioritize the patient's well-being above all else.
-
-![Home health nurse walking toward a patient's home]({{ site.baseurl }}/assets/img/family-blog-second.png)
+- <i class="far fa-check-circle" style="color: #141959"></i> **Doing What's Right:** Our practice is built on integrity. We follow through on our promises, show up when we say we will, and always prioritize the patient's well-being above all else.
 
 ## What to Expect During a Home Visit
 

@@ -24,9 +24,12 @@
   .mission-img {
     display: none;
   }
-
   .about-content-para {
     margin-left: 40px;
+  }
+
+  .misson-desktop-content {
+    width: 100%;
   }
 
   .department-tab-menu .menu-tab {
@@ -53,12 +56,24 @@
     /* margin: 0; */
     display: block;
   }
+  .about-image-content {
+    position: relative;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
 
   .single-service-content h4 a {
     font-size: 16px;
     color: #2c2d3f;
     font-weight: 600;
     display: block;
+  }
+  .integrity-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
   }
 }
 
@@ -609,6 +624,7 @@
   }
   .department-area {
     padding: 70px 0px;
+    background: rgb(236, 247, 255);
   }
   .department-tab-menu .menu-tab .nav-item {
     margin: 10px;

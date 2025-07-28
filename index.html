@@ -146,7 +146,10 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
         />
       </div>
       <!-- Mission Content -->
-      <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+      <div
+        class="col-lg-6 col-12 wow fadeInLeft misson-desktop-content"
+        data-wow-delay="0.1s"
+      >
         <div class="mission-content">
           <div class="mission-c-top">
             <span>Our Mission</span>
@@ -190,6 +193,7 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
       <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
         <div class="mission-img">
           <img
+            class="integrity-image"
             src="{{ site.baseurl }}/assets/img/home-page-our-mission-image.png"
             alt="home-page-our-mission-image"
           />
@@ -199,110 +203,6 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
   </div>
 </section>
 <!-- End Our Mission Area -->
-
-<!-- About Area -->
-<section class="about-area">
-  <div class="container">
-    <div class="row">
-      <!-- About Image -->
-      <div
-        class="specialized-spport-section wow fadeInLeft"
-        data-wow-delay="0.1s"
-      >
-        <div class="about-image-content">
-          <div class="about-img">
-            <img
-              src="{{ site.baseurl }}/assets/img/about-health-care.png"
-              alt="about-health-care"
-            />
-          </div>
-        </div>
-      </div>
-      <!-- End About Image -->
-      <!-- About Content -->
-      <div
-        class="specialized-spport-section wow fadeInRight"
-        data-wow-delay="0.2s"
-      >
-        <div class="about-content">
-          <div class="about-c-title">
-            <span>Specialized Support </span>
-            <h3>A Trusted Partner for Healthcare Professionals and Families</h3>
-          </div>
-          <div class="about-content-list">
-            <div class="row about-content-para">
-              <div class="col-lg-9 col-md-9 col-12">
-                <ul>
-                  <li>
-                    <i class="far fa-check-circle"></i
-                    ><strong>For Patients & Families</strong>
-                  </li>
-                  <p style="margin-bottom: 15px">
-                    You deserve care that’s not just convenient, but honest,
-                    compassionate, and clear. At Vista, we come to you in your
-                    home, assisted living, or nursing facility, and treat you
-                    like family. We believe in doing what’s right, following
-                    through, and keeping you informed every step of the way. →
-                    Want to know what to expect?
-                    <a
-                      href="{{ site.baseurl }}/blog/families/"
-                      class="about-links"
-                      >[Learn More].</a
-                    >
-                  </p>
-                  <li>
-                    <i class="far fa-check-circle"></i
-                    ><strong>For Nurses </strong>
-                  </li>
-                  <p style="margin-bottom: 15px">
-                    We know the biggest frustrations nurses face with wound care
-                    providers: slow responses that delay treatment, unclear or
-                    conflicting orders, missing documentation, and providers who
-                    are hard to reach when plans change. Vista was created to
-                    eliminate these headaches. We deliver fast evaluations,
-                    clear and consistent orders, timely documentation, and
-                    responsive follow-up. With us, you get expert wound care
-                    that appreciates all you’ve done to get patients this far
-                    and helps carry them the rest of the way to healing without
-                    unnecessary delays or hassle. → Can we serve alongside of
-                    you?
-                    <a
-                      href="{{ site.baseurl }}/blog/nurses/"
-                      class="about-links"
-                      >[Learn More].</a
-                    >
-                  </p>
-                  <li>
-                    <i class="far fa-check-circle"></i
-                    ><strong>For Case Managers </strong>
-                  </li>
-                  <p>
-                    Outpatient wound care can derail discharge plans when
-                    providers are hard to reach or inconsistent in their
-                    follow-through. Vista was built for reliability. We act
-                    quickly on referrals to provide a seamless transition in a
-                    patient’s wound care as they leave the inpatient setting and
-                    ensure you’re never left wondering if the next step will
-                    happen. You can trust your patient will get the
-                    follow-through they deserve after you’ve worked so hard to
-                    help them heal. → Let’s simplify your next discharge.
-                    <a
-                      href="{{ site.baseurl }}/blog/case-managers/"
-                      class="about-links"
-                      >[Learn More].</a
-                    >
-                  </p>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End About Content -->
-    </div>
-  </div>
-</section>
-<!-- End About Area -->
 
 <!-- Service Area -->
 <section class="service-area">
@@ -433,6 +333,110 @@ description: Vista Wound Specialists provides compassionate, expert mobile wound
   </div>
 </section>
 <!-- End Service Area -->
+
+<!-- About Area -->
+<section class="about-area">
+  <div class="container">
+    <div class="row">
+      <!-- About Image -->
+      <div
+        class="specialized-spport-section wow fadeInLeft"
+        data-wow-delay="0.1s"
+      >
+        <div class="about-image-content">
+          <div class="about-img">
+            <img
+              src="{{ site.baseurl }}/assets/img/about-health-care.png"
+              alt="about-health-care"
+            />
+          </div>
+        </div>
+      </div>
+      <!-- End About Image -->
+      <!-- About Content -->
+      <div
+        class="specialized-spport-section wow fadeInRight"
+        data-wow-delay="0.2s"
+      >
+        <div class="about-content">
+          <div class="about-c-title">
+            <span>Specialized Support </span>
+            <h3>A Trusted Partner for Healthcare Professionals and Families</h3>
+          </div>
+          <div class="about-content-list">
+            <div class="row about-content-para">
+              <div class="col-lg-9 col-md-9 col-12">
+                <ul>
+                  <li>
+                    <i class="far fa-check-circle"></i
+                    ><strong>For Patients & Families</strong>
+                  </li>
+                  <p style="margin-bottom: 15px">
+                    You deserve care that’s not just convenient, but honest,
+                    compassionate, and clear. At Vista, we come to you in your
+                    home, assisted living, or nursing facility, and treat you
+                    like family. We believe in doing what’s right, following
+                    through, and keeping you informed every step of the way. →
+                    Want to know what to expect?
+                    <a
+                      href="{{ site.baseurl }}/blog/families/"
+                      class="about-links"
+                      >[Learn More].</a
+                    >
+                  </p>
+                  <li>
+                    <i class="far fa-check-circle"></i
+                    ><strong>For Nurses </strong>
+                  </li>
+                  <p style="margin-bottom: 15px">
+                    We know the biggest frustrations nurses face with wound care
+                    providers: slow responses that delay treatment, unclear or
+                    conflicting orders, missing documentation, and providers who
+                    are hard to reach when plans change. Vista was created to
+                    eliminate these headaches. We deliver fast evaluations,
+                    clear and consistent orders, timely documentation, and
+                    responsive follow-up. With us, you get expert wound care
+                    that appreciates all you’ve done to get patients this far
+                    and helps carry them the rest of the way to healing without
+                    unnecessary delays or hassle. → Can we serve alongside of
+                    you?
+                    <a
+                      href="{{ site.baseurl }}/blog/nurses/"
+                      class="about-links"
+                      >[Learn More].</a
+                    >
+                  </p>
+                  <li>
+                    <i class="far fa-check-circle"></i
+                    ><strong>For Case Managers </strong>
+                  </li>
+                  <p>
+                    Outpatient wound care can derail discharge plans when
+                    providers are hard to reach or inconsistent in their
+                    follow-through. Vista was built for reliability. We act
+                    quickly on referrals to provide a seamless transition in a
+                    patient’s wound care as they leave the inpatient setting and
+                    ensure you’re never left wondering if the next step will
+                    happen. You can trust your patient will get the
+                    follow-through they deserve after you’ve worked so hard to
+                    help them heal. → Let’s simplify your next discharge.
+                    <a
+                      href="{{ site.baseurl }}/blog/case-managers/"
+                      class="about-links"
+                      >[Learn More].</a
+                    >
+                  </p>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End About Content -->
+    </div>
+  </div>
+</section>
+<!-- End About Area -->
 
 <!-- Department Area -->
 <section class="department-area">
