@@ -57,7 +57,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
           <img
             src="{{'/assets/img/about-image-desktop.png' | relative_url}}"
             alt="our-approach-first-section-image"
-            class="img-fluid"
+            class="img-fluid our-approach-first-image"
           />
         </div>
       </div>
