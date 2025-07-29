@@ -359,6 +359,9 @@
   .our-help-mission-area:nth-child(odd) .row {
     flex-direction: column-reverse;
   }
+  .our-mission-area .row {
+    flex-direction: column-reverse;
+  }
   .mission-img img {
     width: 100%;
     height: auto;
