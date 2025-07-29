@@ -121,13 +121,6 @@ description: Discover the Vista difference. Our physician-led team is built on i
 <section class="our-mission-area" style="padding-top: 18px;">
   <div class="container">
     <div class="row">
-      <div class="mission-img-mobile">
-        <img
-          src="{{'/assets/img/our-approach-second.jpg' | relative_url}}"
-          alt="our-approach-second-section-image"
-          class="img-fluid"
-        />
-      </div>
       <!-- Mission Content -->
       <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
         <div class="mission-content">

@@ -49,7 +49,7 @@ $(document).ready(function () {
       timeout: 0,
       headers: {
         "Content-Type": "application/x-www-form-urlencoded",
-        Authorization: "Basic Nkc1Sy02MDdGLVExRUotQ0laQzp6c2hpNTE2MTE3bmNsdw=="
+        Authorization: "Basic Nkc1Sy02MDdGLVExRUotQ0laQzp6c2hpNTE2MTE3bmNsdw==",
       },
       data: formData,
     };
