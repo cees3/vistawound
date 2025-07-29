@@ -43,7 +43,6 @@ permalink: /contact-us/
             <div class="col-lg-8 col-12">
               <form
                 method="post"
-                action="/medicare/assets/php/contact.php"
                 id="contact-form"
               >
                 <div class="contact-form">
@@ -52,9 +51,10 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="text"
-                          name="fistName"
+                          name="Field1"
+                          id="Field1"
                           placeholder="First Name"
-                          required="required"
+                          required
                         />
                       </div>
                     </div>
@@ -62,7 +62,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="text"
-                          name="lastName"
+                           name="Field2"
+                          id="Field2"
                           placeholder="Last Name"
                           required="required"
                         />
@@ -72,7 +73,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="tel"
-                          name="phoneNumber"
+                           name="Field3"
+                          id="Field3"
                           placeholder="Phone Number"
                           required="required"
                         />
@@ -82,7 +84,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="email"
-                          name="email"
+                           name="Field4"
+                          id="Field4"
                           placeholder="Email"
                           required="required"
                         />
@@ -92,7 +95,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="text"
-                          name="city"
+                          name="Field5"
+                          id="Field5"
                           placeholder="City/Town"
                           required="required"
                         />
@@ -100,31 +104,15 @@ permalink: /contact-us/
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                       <div class="form-group">
-                        <select name="areaOfNeed" required="required">
-                          <option value="" disabled selected>
-                            Select Area of Need
-                          </option>
-                          <option value="Diabetic Foot Ulcers">
-                            Diabetic Foot Ulcers
-                          </option>
-                          <option value="Pressure Injuries (Bedsores)">
-                            Pressure Injuries (Bedsores)
-                          </option>
-                          <option value="Venous Stasis Ulcers">
-                            Venous Stasis Ulcers
-                          </option>
-                          <option value="Arterial Ulcers">
-                            Arterial Ulcers
-                          </option>
-                          <option value="Post-Operative Wounds">
-                            Post-Operative Wounds
-                          </option>
-                          <option value="Infected or Non-Healing Wounds">
-                            Infected or Non-Healing Wounds
-                          </option>
-                          <option value="Radiation Wounds">
-                            Radiation Wounds
-                          </option>
+                        <select id="Field7" name="Field7" required>
+                          <option value="" disabled selected>Select Area of Need</option>
+                          <option value="Diabetic Foot Ulcers">Diabetic Foot Ulcers</option>
+                          <option value="Pressure Injuries (Bedsores)">Pressure Injuries (Bedsores)</option>
+                          <option value="Venous Stasis Ulcers">Venous Stasis Ulcers</option>
+                          <option value="Arterial Ulcers">Arterial Ulcers</option>
+                          <option value="Post-Operative Wounds">Post-Operative Wounds</option>
+                          <option value="Infected or Non-Healing Wounds">Infected or Non-Healing Wounds</option>
+                          <option value="Radiation Wounds">Radiation Wounds</option>
                           <option value="Skin Tears">Skin Tears</option>
                           <option value="Trauma Wounds">Trauma Wounds</option>
                           <option value="Other">Other</option>
@@ -133,21 +121,20 @@ permalink: /contact-us/
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                       <div class="form-group">
-                        <select name="hearAboutUs" required="required">
-                          <option value="" disabled selected>
-                            How did you hear about us?
-                          </option>
-                          <option value="Referral">Referral</option>
-                          <option value="Google">Google</option>
-                          <option value="Social Media">Social Media</option>
-                          <option value="Other">Other</option>
-                        </select>
+                        <select name="Field8" id="Field8" required>
+                            <option value="" disabled selected>How did you hear about us?</option>
+                              <option value="Referral">Referral</option>
+                              <option value="Google">Google</option>
+                              <option value="Social Media">Social Media</option>
+                              <option value="Other">Other</option>
+                          </select>
                       </div>
                     </div>
                     <div class="col-12">
                       <div class="form-group">
                         <textarea
-                          name="message"
+                          name="Field9"
+                          id="Field9"
                           placeholder="Message"
                           required="required"
                         ></textarea>

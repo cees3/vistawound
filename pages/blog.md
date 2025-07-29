@@ -67,7 +67,7 @@ permalink: /blog/
             <div class="single-blog-title">
               <h3>
                 <a href="{{ site.baseurl }}{{ post.url }}"
-                  >{{ post.title | truncate: 35, "..." }}</a
+                  >{{ post.title }}</a
                 >
               </h3>
               <p>{{ post.blog-description | truncate: 150, "..." }}</p>
@@ -131,7 +131,7 @@ permalink: /blog/
             <div class="single-blog-title">
               <h3>
                 <a href="{{ site.baseurl }}{{ post.url }}"
-                  >{{ post.title | truncate: 35, "..." }}</a
+                  >{{ post.title  }}</a
                 >
               </h3>
               <p>{{ post.blog-description | truncate: 150, "..." }}</p>

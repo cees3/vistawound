@@ -1,3 +1,9 @@
+@media (max-width: 1199px) {
+  .single-service {
+    padding: 28px 20px 16px;
+  }
+}
+
 /* Tablet Screen */
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
   .topbar-content li {
@@ -21,9 +27,9 @@
     object-fit: cover;
     object-position: center;
   }
-  .mission-img {
+  /* .mission-img {
     display: none;
-  }
+  } */
   .about-content-para {
     margin-left: 40px;
   }
@@ -32,11 +38,10 @@
     width: 100%;
   }
 
-  .department-tab-menu .menu-tab {
+  /* .department-tab-menu .menu-tab {
     margin-left: 53px;
-    /* margin: 0; */
     display: block;
-  }
+  } */
 
   /* .h-menu-right {
     display: none;
@@ -45,17 +50,15 @@
 
 /* macbook Screen */
 @media only screen and (min-width: 1100px) and (max-width: 1400px) {
-  .department-tab-menu .menu-tab .nav-item {
+  /* .department-tab-menu .menu-tab .nav-item {
     margin: 0;
     display: inline-block;
     padding: 7px;
-    /* margin-right: 24px; */
-  }
-  .department-tab-menu .menu-tab {
+  } */
+  /* .department-tab-menu .menu-tab {
     margin-left: 35px;
-    /* margin: 0; */
     display: block;
-  }
+  } */
   .about-image-content {
     position: relative;
     height: 100%;
@@ -102,20 +105,20 @@
     object-fit: cover;
     object-position: center;
   }
-  .mission-img {
+  /* .mission-img {
     display: none;
-  }
+  } */
   .h-menu-right {
     display: none;
   }
   .about-content-para {
     margin-left: 40px;
   }
-  .help-right-section {
+  /* .help-right-section {
     display: flex;
     width: 100%;
     margin-right: 20px;
-  }
+  } */
   .h-menu-right-tablet {
     display: block;
     margin-left: 16px;
@@ -211,18 +214,17 @@
   .single-fact {
     padding: 30px;
   }
-  .department-tab-menu .menu-tab {
+  /* .department-tab-menu .menu-tab {
     margin-left: 35px;
-    /* margin: 0; */
     display: block;
-  }
-
+  } */
+  /* 
   .department-tab-menu .menu-tab .nav-item:nth-child(4) {
     margin-right: 0;
   }
   .department-tab-menu .menu-tab .nav-item:nth-child(5) {
     margin-bottom: 0;
-  }
+  } */
   .department-tab-menu {
     margin-bottom: 50px;
   }
@@ -312,12 +314,11 @@
   .doctor-d-title p {
     font-size: 15px;
   }
-  .department-tab-menu .menu-tab .nav-item {
+  /* .department-tab-menu .menu-tab .nav-item {
     margin: 0;
     display: inline-block;
     padding: 35px;
-    /* margin-right: 24px; */
-  }
+  } */
 
   .our-approach-contact-section {
     margin-top: 30px;
@@ -350,6 +351,18 @@
     margin-top: 11px;
     font-weight: 700;
     font-family: "Barlow", sans-serif;
+  }
+}
+
+/* Mobile Screen */
+@media only screen and (max-width: 991px) {
+  .our-help-mission-area:nth-child(odd) .row {
+    flex-direction: column-reverse;
+  }
+  .mission-img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
   }
 }
 
@@ -626,16 +639,16 @@
     padding: 70px 0px;
     background: rgb(236, 247, 255);
   }
-  .department-tab-menu .menu-tab .nav-item {
+  /* .department-tab-menu .menu-tab .nav-item {
     margin: 10px;
   }
   .department-tab-menu .menu-tab .nav-item:nth-child(6) {
     margin: 10px;
-  }
-  .department-tab-menu {
+  } */
+  /* .department-tab-menu {
     margin-bottom: 20px;
     margin-left: 23px;
-  }
+  } */
   .department-tab-menu .menu-tab span {
     font-size: 11px;
     margin-top: 3px;
@@ -680,9 +693,9 @@
     line-height: 38px;
     margin-bottom: 15px;
   }
-  .mission-img {
+  /* .mission-img {
     display: none;
-  }
+  } */
   .pricing-area {
     padding: 70px 0px;
   }
@@ -1133,12 +1146,11 @@
 }
 
 @media only screen and (min-width: 412px) and (max-width: 767px) {
-  .department-tab-menu .menu-tab .nav-item {
+  /* .department-tab-menu .menu-tab .nav-item {
     margin: 0;
     display: inline-block;
     padding: 30px;
-    /* margin-right: 24px; */
-  }
+  } */
   .mission-img-mobile {
     display: block;
   }

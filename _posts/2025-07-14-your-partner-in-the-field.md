@@ -9,11 +9,8 @@ description: "Explore the Vista Wound Specialists blog for expert advice, patien
 blog-description: "Home health nurses are the backbone of community care in Northeast Oklahoma. Every day, you navigate complex patient needs, endless charting, and the logistical challenges of providing high-quality care in the home. You are a skilled clinician, a patient advocate, and a master coordinator. We know that managing complex wounds and preventing hospital readmissions can add significant strain to your already demanding workload."
 image: "/assets/img/nurse-blog-top-image.png"
 permalink: /blog/nurses/
+top-image: "/assets/img/nurse-blog-second.jpg"
 ---
-
-<div class="single-head-img mb-3">
-	<img src="{{ site.baseurl }}/assets/img/nurse-blog-second.jpg" alt="#">
-</div>
 
 Home health nurses are the backbone of community care in Northeast Oklahoma. Every day, you navigate complex patient needs, endless charting, and the logistical challenges of providing high-quality care in the home. You are a skilled clinician, a patient advocate, and a master coordinator. We know that managing complex wounds and **preventing hospital readmissions** can add significant strain to your already demanding workload.
 
