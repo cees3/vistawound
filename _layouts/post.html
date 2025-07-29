@@ -47,10 +47,10 @@
       href="{{'assets/css/animate.min.css' | relative_url}}"
     />
     <!-- Nice Select -->
-    <link
+    <!-- <link
       rel="stylesheet"
       href="{{'assets/css/nice-select.css' | relative_url}}"
-    />
+    /> -->
     <!-- Datepicker -->
     <link
       rel="stylesheet"
@@ -106,12 +106,21 @@
     </section>
 
     <div class="container">
+      {% if page.top-image %}
+      <div class="single-head-img mb-3">
+        <img
+          src="{{ site.baseurl }}{{ page.top-image }}"
+          alt="Top Header Image"
+        />
+      </div>
+      {% endif %}
       <h1 class="post-title">{{ page.title }}</h1>
       <div class="meta">
         <i class="far fa-calendar-alt" style="color: #141959"></i> Published on
         {{ page.date | date: "%B %d, %Y" }} {% if page.categories %} • Category:
         {{ page.categories | join: ", " }} {% endif %}
       </div>
+
       <article class="blog-post">{{ content }}</article>
     </div>
 
@@ -150,7 +159,7 @@
                 <div class="single-blog-title">
                   <h3>
                     <a href="{{ site.baseurl }}{{ post.url }}"
-                      >{{ post.title | truncate: 35, "..." }}</a
+                      >{{ post.title }}</a
                     >
                   </h3>
                   <p>{{ post.blog-description | truncate: 150, "..." }}</p>
@@ -225,7 +234,7 @@
     <!-- Cube Portfolio JS -->
     <script src="{{'assets/js/cube-portfolio.min.js' | relative_url}}"></script>
     <!-- Nice Select JS -->
-    <script src="{{'assets/js/nice-select.min.js' | relative_url}}"></script>
+    <!-- <script src="{{'assets/js/nice-select.min.js' | relative_url}}"></script> -->
     <!-- Wow JS -->
     <script src="{{'assets/js/wow.min.js' | relative_url}}"></script>
     <!-- Slicknav JS -->

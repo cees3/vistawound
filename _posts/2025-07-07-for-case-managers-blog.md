@@ -9,6 +9,7 @@ author: Vista Wound Specialists
 image: "/assets/img/case-manager-first.jpg"
 blog-description: "As a case manager in Northeast Oklahoma, your goals are clear: ensure safe discharges, improve patient outcomes, and prevent costly hospital readmissions. You need partners who don't just promise results, but reliably deliver them. When a patient has a complex or chronic wound, the risk of complications is high, and finding a dependable post-discharge care provider is critical."
 permalink: /blog/case-managers/
+top-image: "/assets/img/case-manager-second.jpg"
 ---
 
 As a case manager in Northeast Oklahoma, your goals are clear: ensure safe discharges, improve patient outcomes, and prevent costly hospital readmissions. You need partners who don't just promise results, but reliably deliver them. When a patient has a complex or chronic wound, the risk of complications is high, and finding a dependable post-discharge care provider is critical.

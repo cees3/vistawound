@@ -53,15 +53,15 @@ permalink: /help/
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
-          <div class="help-right-section wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 help-right-section wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
-              <div class="mission-img-mobile">
+              <!-- <div class="mission-img-mobile">
                 <img
                 src="{{ site.baseurl }}/assets/img/help-service-first.png"
                   alt="help-service-first"
                   class="help-image-section"
                 />
-              </div>
+              </div> -->
               <div class="mission-c-top">
                 <h3>
                   Specialized Treatment for<br /><strong
@@ -85,7 +85,7 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Image -->
-          <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+          <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class="mission-img" style="object-fit: cover; object-position: center;">
               <img
                 src="{{ site.baseurl }}/assets/img/help-service-first.png"
@@ -102,7 +102,7 @@ permalink: /help/
         <div class="row">
           <!-- Mission Image -->
           <div
-            class="help-left-section col-12 wow fadeInRight"
+            class="col-xl-5 col-lg-6 col-12 help-left-section wow fadeInRight"
             data-wow-delay="0.2s"
           >
             <div class="mission-img" style="background-size: cover">
@@ -114,16 +114,16 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Content -->
-          <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
               <div class="mission-c-top">
-                <div class="mission-img-mobile">
+                <!-- <div class="mission-img-mobile">
                   <img
                   src="{{ site.baseurl }}/assets/img/help-service-second.png"
                   alt="help-service-second"
                   class="help-image-section"
                   />
-                </div>
+                </div> -->
                 <h3>
                   Advanced Care for
                   <br /><strong>Pressure Injuries (Bedsores)</strong>
@@ -151,16 +151,16 @@ permalink: /help/
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
-          <div class="help-right-section wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 help-right-section wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
               <div class="mission-c-top">
-                <div class="mission-img-mobile">
+                <!-- <div class="mission-img-mobile">
                   <img
                   src="{{ site.baseurl }}/assets/img/help-service-third.png"
                   alt="help-service-three"
                   class="help-image-section"
                   />
-                </div>
+                </div> -->
                 <h3>
                   Effective Management of
                   <br /><strong>Venous Stasis Ulcers</strong>
@@ -181,7 +181,7 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Image -->
-          <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+          <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class="mission-img" style="background-size: cover">
               <img
                 src="{{ site.baseurl }}/assets/img/help-service-third.png"
@@ -198,7 +198,7 @@ permalink: /help/
         <div class="row">
           <!-- Mission Image -->
           <div
-            class="help-left-section col-12 wow fadeInRight"
+            class="col-xl-5 col-lg-6 col-12 help-left-section wow fadeInRight"
             data-wow-delay="0.2s"
           >
             <div class="mission-img" style="background-size: cover">
@@ -210,16 +210,16 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Content -->
-          <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
               <div class="mission-c-top">
-                <div class="mission-img-mobile">
+                <!-- <div class="mission-img-mobile">
                   <img
                   src="{{ site.baseurl }}/assets/img/help-service-forth.png"
                   alt="help-service-four"
                   class="help-image-section"
                   />
-                </div>
+                </div> -->
                 <h3>
                   Rapid Response for
                   <br /><strong>Arterial Ulcers</strong>
@@ -246,16 +246,16 @@ permalink: /help/
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
-          <div class="help-right-section wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 help-right-section wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
               <div class="mission-c-top">
-                <div class="mission-img-mobile">
+                <!-- <div class="mission-img-mobile">
                   <img
                   src="{{ site.baseurl }}/assets/img/help-service-fifth.png"
                   alt="help-service-fifth"
                   class="help-image-section"
                   />
-                </div>
+                </div> -->
                 <h3>
                   Coordinated Treatment for
                   <br /><strong>Post-Operative Complications</strong>
@@ -275,7 +275,7 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Image -->
-          <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+          <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class="mission-img" style="background-size: cover">
               <img
                 src="{{ site.baseurl }}/assets/img/help-service-fifth.png"
@@ -292,7 +292,7 @@ permalink: /help/
         <div class="row">
           <!-- Mission Image -->
           <div
-            class="help-left-section col-12 wow fadeInRight"
+            class="col-xl-5 col-lg-6 col-12 help-left-section wow fadeInRight"
             data-wow-delay="0.2s"
           >
             <div class="mission-img" style="background-size: cover">
@@ -304,16 +304,16 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Content -->
-          <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
               <div class="mission-c-top">
-                <div class="mission-img-mobile">
+                <!-- <div class="mission-img-mobile">
                   <img
                   src="{{ site.baseurl }}/assets/img/help-service-sixth.png"
                   alt="help-service-sixth"
                   class="help-image-section"
                   />
-                </div>
+                </div> -->
                 <h3>
                   Expert Care for
                   <br /><strong>Infected or Non-Healing Wounds</strong>
@@ -342,16 +342,16 @@ permalink: /help/
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
-          <div class="help-right-section wow fadeInLeft" data-wow-delay="0.1s">
+          <div class="col-xl-7 col-lg-6 col-12 help-right-section wow fadeInLeft" data-wow-delay="0.1s">
             <div class="mission-content">
               <div class="mission-c-top">
-                <div class="mission-img-mobile">
+                <!-- <div class="mission-img-mobile">
                   <img
                   src="{{ site.baseurl }}/assets/img/help-service-seven.jpg"
                   alt="help-service-seven"
                   class="help-image-section"
                   />
-                </div>
+                </div> -->
                 <h3>
                   Gentle Care for
                   <br /><strong>Skin Tears, Trauma Wounds, and More </strong>
@@ -371,7 +371,7 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Image -->
-          <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+          <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
             <div class="mission-img" style="background-size: cover">
               <img
                 src="{{ site.baseurl }}/assets/img/help-service-seven.jpg"

@@ -511,6 +511,9 @@ Version         : 1.1
   height: 300px;
   width: 392px;
 }
+.our-help-mission-area:nth-child(odd) .mission-img {
+  text-align: right;
+}
 /*=============================
       About Area
   ===============================*/
@@ -717,6 +720,15 @@ Version         : 1.1
   align-items: center;
   margin-top: 36px;
   width: 100%;
+}
+
+.specialized-spport-section-content {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  margin-top: 36px;
+  margin-left: auto;
+  max-width: 1180px;
 }
 
 /* Service Details Area */
@@ -1018,17 +1030,19 @@ Version         : 1.1
 }
 .department-tab-menu .menu-tab {
   margin: 0;
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -16px;
 }
 .department-tab-menu .menu-tab .nav-item {
   margin: 0;
   display: inline-block;
-  padding: 7px;
-  margin-right: 24px;
+  padding: 16px;
 }
-.department-tab-menu .menu-tab .nav-item:nth-child(6) {
+/* .department-tab-menu .menu-tab .nav-item:nth-child(6) {
   margin: 0;
-}
+} */
 .department-tab-menu .menu-tab .nav-item a {
   color: #141959;
 }
@@ -1832,14 +1846,17 @@ Version         : 1.1
   color: #2c2d3f;
   margin-bottom: 15px;
 }
-.help-left-section {
+/* .help-left-section {
   display: flex;
   width: 42%;
-}
-.help-right-section {
+} */
+/* .help-right-section {
   display: flex;
   width: 45%;
   margin-right: 20px;
+} */
+.our-help-mission-area .row {
+  align-items: center;
 }
 .mission-content strong {
   color: #141959;
@@ -2121,6 +2138,7 @@ Version         : 1.1
   margin-top: 30px;
   border-radius: 10px;
   height: 100%;
+  padding-bottom: 70px;
 }
 .s-blog-head {
   position: relative;
@@ -2182,7 +2200,7 @@ Version         : 1.1
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 200px;
+  /* height: 200px; */
 }
 
 .single-blog-content h3 a {
@@ -2202,9 +2220,13 @@ Version         : 1.1
 .blog-author {
   display: flex;
   align-items: center;
-  margin-top: 20px;
-  padding-top: 12px;
   border-top: 1px solid #ddd;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  width: 100%;
+  padding-left: 6px;
+  padding-top: 12px;
 }
 .blog-author .b-author-left {
 }
@@ -2249,6 +2271,7 @@ Version         : 1.1
   -webkit-transition: all 0.4s eaes;
   -moz-transition: all 0.4s eaes;
   border-radius: 10px;
+  margin-top: 90px;
 }
 .single-head-img img:hover {
   transform: scale(1.1);
@@ -2256,6 +2279,12 @@ Version         : 1.1
 
 .single-head-img img {
   border-radius: 10px;
+  border-radius: 10px;
+  height: 750px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* margin-top: 90px; */
 }
 
 .blog-s-title {
@@ -3798,7 +3827,8 @@ Version         : 1.1
   color: #fdbb1d;
 }
 .single-widget.footer-q-links {
-  margin-left: 112px;
+  margin-left: auto;
+  max-width: 136px;
 }
 
 .footer-contact {
