@@ -1819,9 +1819,13 @@ Version         : 1.1
 /*=============================
       Our Mission Area
   ===============================*/
-.our-mission-area {
+.our-mission-area.our-approach {
   padding: 100px 0px;
   background: #ecf7ff;
+}
+
+.our-mission-area {
+  padding: 100px 0px;
 }
 .nurse-blog-list-ul {
   margin: 15px 0px;
