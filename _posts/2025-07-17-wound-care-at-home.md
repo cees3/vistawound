@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "For Patients & Families"
+blog-title: "Wound Care at Home: A Guide for Northeast Oklahoma Families"
 date: 2025-07-17
 breadcrumb-title: For Patients & Families
 categories: [For Patients & Families]
@@ -26,10 +27,20 @@ Arranging transportation to a wound clinic can be difficult and painful for some
 
 This means:
 
-- <i class="far fa-check-circle" style="color: #141959"></i> No more stressful car rides.
-- <i class="far fa-check-circle" style="color: #141959"></i> No more time spent in crowded waiting rooms.
-- <i class="far fa-check-circle" style="color: #141959"></i> Reduced risk of exposure to other illnesses.
-- <i class="far fa-check-circle" style="color: #141959"></i> Consistent, one-on-one time with a dedicated provider.
+<ul class="mission-c-list nurse-blog-list-ul">
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>No more stressful car rides.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>No more time spent in crowded waiting rooms.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Reduced risk of exposure to other illnesses.
+            </li>
+			 <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Consistent, one-on-one time with a dedicated provider.
+            </li>
+          </ul>
 
 ![Home health nurse walking toward a patient's home]({{ site.baseurl }}/assets/img/family-blog-second.png)
 
@@ -37,11 +48,20 @@ This means:
 
 For us, this is more than just a phrase; it’s the standard for our care. It’s about building trust and ensuring you feel supported every step of the way.
 
-- <i class="far fa-check-circle" style="color: #141959"></i> **Compassion and Respect:** We take the time to listen to your concerns, answer your questions, and explain our actions in simple, clear terms. We treat every patient with the gentleness and respect they deserve.
-
-- <i class="far fa-check-circle" style="color: #141959"></i> **Keeping You Informed:** You will always know what’s happening with your loved one's treatment plan. We communicate clearly with both the patient and any designated family members, ensuring everyone is on the same page.
-
-- <i class="far fa-check-circle" style="color: #141959"></i> **Doing What's Right:** Our practice is built on integrity. We follow through on our promises, show up when we say we will, and always prioritize the patient's well-being above all else.
+<ul class="mission-c-list nurse-blog-list-ul">
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i><strong>Compassion and Respect:</strong>  
+ We take the time to listen to your concerns, answer your questions, and explain our actions in simple, clear terms. We treat every patient with the gentleness and respect they deserve.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i><strong>Keeping You Informed:</strong>  
+ You will always know what’s happening with your loved one's treatment plan. We communicate clearly with both the patient and any designated family members, ensuring everyone is on the same page.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i><strong>Doing What's Right:</strong>  
+  Our practice is built on integrity. We follow through on our promises, show up when we say we will, and always prioritize the patient's well-being above all else.
+            </li>
+          </ul>
 
 ## What to Expect During a Home Visit
 
@@ -49,10 +69,22 @@ It's natural to have questions about what a home visit looks like. Our process i
 
 During a visit, our provider will:
 
-- <i class="far fa-check-circle" style="color: #141959"></i> Gently assess the wound and the surrounding skin.
-- <i class="far fa-check-circle" style="color: #141959"></i> Review the patient's medical history and current medications.
-- <i class="far fa-check-circle" style="color: #141959"></i> Provide any necessary treatment on the spot, such as cleaning the wound or applying new, [advanced dressings]({{ site.baseurl }}/help/).
-- <i class="far fa-check-circle" style="color: #141959"></i> Create a personalized care plan and discuss the next steps with you.
-- <i class="far fa-check-circle" style="color: #141959"></i> Answer any and all questions you may have.
+<ul class="mission-c-list nurse-blog-list-ul">
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Gently assess the wound and the surrounding skin.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Review the patient's medical history and current medications.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Provide any necessary treatment on the spot, such as cleaning the wound or applying new, <a href="{{ site.baseurl }}/help/">[advanced dressings]</a>.
+            </li>
+			<li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Create a personalized care plan and discuss the next steps with you.
+            </li>
+			<li>
+               <i class="far fa-check-circle" style="color: #141959"></i>Answer any and all questions you may have.
+            </li>
+          </ul>
 
 We handle everything, allowing you to focus on what matters most—supporting your loved one.

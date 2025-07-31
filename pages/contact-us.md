@@ -104,7 +104,7 @@ permalink: /contact-us/
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                       <div class="form-group">
-                        <select id="Field7" name="Field7" required>
+                        <select id="Field7" name="Field7"  required>
                           <option value="" disabled selected>Select Area of Need</option>
                           <option value="Diabetic Foot Ulcers">Diabetic Foot Ulcers</option>
                           <option value="Pressure Injuries (Bedsores)">Pressure Injuries (Bedsores)</option>
@@ -176,17 +176,21 @@ permalink: /contact-us/
                 </div> -->
                 <div class="single-c-details">
                   <i class="far fa-phone"></i>
+                  <a href="tel:+1(918)505-2956" >
                   <div class="single-c-content">
                     <h5>Phone</h5>
                     <span>+1 (918)505-2956</span>
                   </div>
+                  </a>
                 </div>
                 <div class="single-c-details">
                   <i class="far fa-envelope"></i>
+                   <a href="mailto:contact@vistawound.com" >
                   <div class="single-c-content">
                     <h5>Email</h5>
                     <span>contact@vistawound.com</span>
                   </div>
+                   </a>
                 </div>
               </div>
             </div>

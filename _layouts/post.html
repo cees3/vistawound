@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="{{ page.description | default: site.description }}"
+      content="{{ page.title }} | {{ site.title }}"
     />
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="icon" href="{{ '/assets/img/v-logo.png' | relative_url }}" />
@@ -114,7 +114,7 @@
         />
       </div>
       {% endif %}
-      <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title">{{ page.blog-title }}</h1>
       <div class="meta">
         <i class="far fa-calendar-alt" style="color: #141959"></i> Published on
         {{ page.date | date: "%B %d, %Y" }} {% if page.categories %} • Category:
@@ -140,10 +140,12 @@
               <div class="s-blog-head">
                 <div class="s-blog-img">
                   {% if post.image %}
-                  <img
-                    src="{{ site.baseurl }}{{ post.image }}"
-                    alt="Blog image for {{ post.title }}"
-                  />
+                  <a href="{{ site.baseurl }}{{ post.url }}">
+                    <img
+                      src="{{ site.baseurl }}{{ post.image }}"
+                      alt="Blog image for {{ post.blog-title }}"
+                    />
+                  </a>
                   {% else %}
                   <img
                     src="{{ site.baseurl }}/assets/img/default-blog.jpg"
@@ -159,7 +161,7 @@
                 <div class="single-blog-title">
                   <h3>
                     <a href="{{ site.baseurl }}{{ post.url }}"
-                      >{{ post.title }}</a
+                      >{{ post.blog-title }}</a
                     >
                   </h3>
                   <p>{{ post.blog-description | truncate: 150, "..." }}</p>

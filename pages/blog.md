@@ -49,7 +49,7 @@ permalink: /blog/
                   >
               <img
                 src="{{ site.baseurl }}{{ post.image }}"
-                alt="Blog image for {{ post.title }}"
+                alt="Blog image for {{ post.blog-title }}"
               />
               </a>
               {% else %}
@@ -67,7 +67,7 @@ permalink: /blog/
             <div class="single-blog-title">
               <h3>
                 <a href="{{ site.baseurl }}{{ post.url }}"
-                  >{{ post.title }}</a
+                  >{{ post.blog-title }}</a
                 >
               </h3>
               <p>{{ post.blog-description | truncate: 150, "..." }}</p>
@@ -113,7 +113,7 @@ permalink: /blog/
               <a href="{{ site.baseurl }}{{ post.url }}">
               <img
                 src="{{ site.baseurl }}{{ post.image }}"
-                alt="Blog image for {{ post.title }}"
+                alt="Blog image for {{ post.blog-title }}"
               />
               </a>
               {% else %}
@@ -131,7 +131,7 @@ permalink: /blog/
             <div class="single-blog-title">
               <h3>
                 <a href="{{ site.baseurl }}{{ post.url }}"
-                  >{{ post.title  }}</a
+                  >{{ post.blog-title  }}</a
                 >
               </h3>
               <p>{{ post.blog-description | truncate: 150, "..." }}</p>
