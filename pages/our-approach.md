@@ -119,7 +119,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
   </div>
 </section>
 
-<section class="our-mission-area">
+<section class="our-mission-area our-approach">
   <div class="container">
     <div class="row">
       <!-- Mission Content -->
