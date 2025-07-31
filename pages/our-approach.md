@@ -9,7 +9,8 @@ description: Discover the Vista difference. Our physician-led team is built on i
   class="breadcrumbs hero-bg"
   style="
     background-image: url('{{ site.baseurl }}/assets/img/our-approach-top-image.png');
-    background-size: cover;
+    object-fit: cover;
+    object-position: center;
     /* background-position: center; */
   "
 >
@@ -63,7 +64,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
       </div>
       <!-- End About Image -->
       <!-- About Content -->
-      <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+      <div class="col-lg-6 col-12 desktop-about-content wow fadeInRight" data-wow-delay="0.2s">
         <div class="about-content">
           <div class="about-c-title">
             <span>Our Story</span>
@@ -118,11 +119,11 @@ description: Discover the Vista difference. Our physician-led team is built on i
   </div>
 </section>
 
-<section class="our-mission-area" style="padding-top: 18px;">
+<section class="our-mission-area">
   <div class="container">
     <div class="row">
       <!-- Mission Content -->
-      <div class="col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
+      <div class=" integrity-content-div col-lg-6 col-12 wow fadeInLeft" data-wow-delay="0.1s">
         <div class="mission-content">
           <div class="mission-c-top">
             <!-- <span>Our Mission</span> -->
@@ -163,7 +164,7 @@ description: Discover the Vista difference. Our physician-led team is built on i
         </div>
       </div>
       <!-- Mission Image -->
-      <div class="col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+      <div class="integrity-image-div col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
         <div class="mission-img">
           <img
             src="{{'/assets/img/our-approach-second.jpg' | relative_url}}"

@@ -4,12 +4,13 @@ title: "For Healthcare Partners"
 date: 2025-07-07
 categories: [For Healthcare Partners]
 breadcrumb-title: For Healthcare Partners
+blog-title: "Simplify Your Discharges & Reduce Readmissions with a Reliable Wound Care Partner"
 description: "Explore the Vista Wound Specialists blog for expert advice, patient resources, and valuable insights on healing complex wounds and navigating at-home care."
 author: Vista Wound Specialists
 image: "/assets/img/case-manager-first.jpg"
 blog-description: "As a case manager in Northeast Oklahoma, your goals are clear: ensure safe discharges, improve patient outcomes, and prevent costly hospital readmissions. You need partners who don't just promise results, but reliably deliver them. When a patient has a complex or chronic wound, the risk of complications is high, and finding a dependable post-discharge care provider is critical."
 permalink: /blog/case-managers/
-top-image: "/assets/img/case-manager-second.jpg"
+top-image: "/assets/img/case-manager-second-pixel-perfect.jpeg"
 ---
 
 As a case manager in Northeast Oklahoma, your goals are clear: ensure safe discharges, improve patient outcomes, and prevent costly hospital readmissions. You need partners who don't just promise results, but reliably deliver them. When a patient has a complex or chronic wound, the risk of complications is high, and finding a dependable post-discharge care provider is critical.
@@ -36,17 +37,20 @@ A key metric for every case manager is the 30-day readmission rate. Non-healing 
 
 Coordinating post-acute care shouldn't be a bottleneck. We make **discharge planning for patients with complex wounds** simple and efficient.
 
-- <i class="far fa-check-circle" style="color: #141959"></i> **Rapid Response:**
-
-- We pride ourselves on acting quickly. Once we receive a referral, we typically schedule an initial evaluation within 24-48 hours, ensuring a seamless transition from hospital to home or SNF.
-
-- <i class="far fa-check-circle" style="color: #141959"></i> **Clear Communication:**
-
-- You will never be left in the dark. We provide clear, consistent communication and thorough documentation, so you always have a current picture of the patient's progress.
-
-- <i class="far fa-check-circle" style="color: #141959"></i> **We Follow Through:**
-
-- Our commitment is to be the partner you can count on. From the initial referral to the final progress note, we do what we say we will do. This reliability simplifies your follow-up process and gives you peace of mind.
+<ul class="mission-c-list nurse-blog-list-ul">
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i><strong>Rapid Response:</strong>  
+  We pride ourselves on acting quickly. Once we receive a referral, we typically schedule an initial evaluation within 24-48 hours, ensuring a seamless transition from hospital to home or SNF.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i><strong>Clear Communication:</strong>  
+  You will never be left in the dark. We provide clear, consistent communication and thorough documentation, so you always have a current picture of the patient's progress.
+            </li>
+            <li>
+               <i class="far fa-check-circle" style="color: #141959"></i><strong>We Follow Through:</strong>  
+  Our commitment is to be the partner you can count on. From the initial referral to the final progress note, we do what we say we will do. This reliability simplifies your follow-up process and gives you peace of mind.
+            </li>
+          </ul>
 
 ![Nurse Visiting Elderly Woman]({{ site.baseurl }}/assets/img/case-manager-third.jpg)
 
