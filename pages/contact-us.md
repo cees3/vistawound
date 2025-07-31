@@ -62,8 +62,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="text"
-                           name="Field2"
-                          id="Field2"
+                           name="Field4"
+                          id="Field4"
                           placeholder="Last Name"
                           required="required"
                         />
@@ -73,8 +73,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="tel"
-                           name="Field3"
-                          id="Field3"
+                           name="Field5"
+                          id="Field5"
                           placeholder="Phone Number"
                           required="required"
                         />
@@ -84,8 +84,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="email"
-                           name="Field4"
-                          id="Field4"
+                           name="Field6"
+                          id="Field6"
                           placeholder="Email"
                           required="required"
                         />
@@ -95,8 +95,8 @@ permalink: /contact-us/
                       <div class="form-group">
                         <input
                           type="text"
-                          name="Field5"
-                          id="Field5"
+                          name="Field7"
+                          id="Field7"
                           placeholder="City/Town"
                           required="required"
                         />
@@ -104,7 +104,7 @@ permalink: /contact-us/
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                       <div class="form-group">
-                        <select id="Field7" name="Field7"  required>
+                        <select id="Field8" name="Field8"  required>
                           <option value="" disabled selected>Select Area of Need</option>
                           <option value="Diabetic Foot Ulcers">Diabetic Foot Ulcers</option>
                           <option value="Pressure Injuries (Bedsores)">Pressure Injuries (Bedsores)</option>
@@ -121,7 +121,7 @@ permalink: /contact-us/
                     </div>
                     <div class="col-lg-6 col-md-6 col-12">
                       <div class="form-group">
-                        <select name="Field8" id="Field8" required>
+                        <select name="Field9" id="Field9" required>
                             <option value="" disabled selected>How did you hear about us?</option>
                               <option value="Referral">Referral</option>
                               <option value="Google">Google</option>
@@ -133,8 +133,8 @@ permalink: /contact-us/
                     <div class="col-12">
                       <div class="form-group">
                         <textarea
-                          name="Field9"
-                          id="Field9"
+                          name="Field10"
+                          id="Field10"
                           placeholder="Message"
                           required="required"
                         ></textarea>
