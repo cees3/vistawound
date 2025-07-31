@@ -486,8 +486,7 @@ Version         : 1.1
 .single-features:hover .feature-icon i {
   transform: rotate(360deg);
 }
-.feature-content {
-}
+
 .feature-content h5 {
   font-size: 20px;
   font-weight: 500;
@@ -520,6 +519,11 @@ Version         : 1.1
 .about-area {
   padding: 100px 0px;
 }
+
+.about-area.home{
+  padding-bottom: 20px
+}
+
 .mobile-about-image {
   display: none;
 }
@@ -743,8 +747,6 @@ Version         : 1.1
 .service-details-inner {
   margin-top: 30px;
 }
-.service-details-content {
-}
 .service-d-description {
   margin-bottom: 50px;
 }
@@ -769,8 +771,7 @@ Version         : 1.1
   border-radius: 10px;
 }
 
-.service-d-list-inner {
-}
+
 .single-s-list {
   margin-bottom: 40px;
 }
@@ -4126,8 +4127,15 @@ Version         : 1.1
 }
 
 .about-content-ul {
-  width: 85%;
+  width: 100%;
 }
+
+
+.about-content-ul ul {
+  padding-left: 0px
+}
+
+.about-area 
 
 /* .about-content-para {
   margin-left: 35px;
