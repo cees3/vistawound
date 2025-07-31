@@ -29,13 +29,13 @@ $(document).ready(function () {
 
     const formData = {
       Field1: $("#Field1").val().trim(),
-      Field2: $("#Field2").val().trim(),
-      Field3: $("#Field3").val().trim(),
       Field4: $("#Field4").val().trim(),
       Field5: $("#Field5").val().trim(),
-      Field7: $("#Field7").val(),
+      Field6: $("#Field6").val().trim(),
+      Field7: $("#Field7").val().trim(),
       Field8: $("#Field8").val(),
-      Field9: $("#Field9").val().trim(),
+      Field9: $("#Field9").val(),
+      Field10: $("#Field10").val().trim(),
     };
 
     const $submitBtn = $(form).find("button[type=submit]");
@@ -44,12 +44,12 @@ $(document).ready(function () {
     $submitBtn.prop("disabled", true).text("Submitting...");
 
     var settings = {
-      url: "https://swapnildev.wufoo.com/api/v3/forms/zshi516117nclw/entries.json",
+      url: "https://vistawound.wufoo.com/api/v3/forms/z6t0v161q4sd3i/entries.json",
       method: "POST",
       timeout: 0,
       headers: {
+        Authorization: "Basic " + btoa("VMK0-ETM7-QBSP-EWF7:"),
         "Content-Type": "application/x-www-form-urlencoded",
-        Authorization: "Basic Nkc1Sy02MDdGLVExRUotQ0laQzp6c2hpNTE2MTE3bmNsdw==",
       },
       data: formData,
     };
