@@ -520,8 +520,8 @@ Version         : 1.1
   padding: 100px 0px;
 }
 
-.about-area.home{
-  padding-bottom: 20px
+.about-area.home {
+  padding-bottom: 20px;
 }
 
 .mobile-about-image {
@@ -702,7 +702,7 @@ Version         : 1.1
   margin-bottom: 10px;
 }
 .single-service-content h4 a {
-  font-size: 18px;
+  font-size: 16px;
   color: #2c2d3f;
   font-weight: 600;
   display: block;
@@ -770,7 +770,6 @@ Version         : 1.1
 .service-d-list img {
   border-radius: 10px;
 }
-
 
 .single-s-list {
   margin-bottom: 40px;
@@ -1048,21 +1047,20 @@ Version         : 1.1
 /* .department-tab-menu .menu-tab .nav-item:nth-child(6) {
   margin: 0;
 } */
-.department-tab-menu .menu-tab .nav-item a {
+.department-tab-menu .menu-tab .nav-item div {
   color: #141959;
 }
 .department-tab-menu .menu-tab .nav-item a.active,
 .department-tab-menu .menu-tab .nav-item a:hover {
-  color: #fdbb1d;
-  background: #141959;
+  color: #141959;
 }
-.department-tab-menu .menu-tab .nav-item a.active span {
+/* .department-tab-menu .menu-tab .nav-item a.active span {
   color: #fff;
 }
 .department-tab-menu .menu-tab .nav-item a:hover span {
   color: #fff;
-}
-.department-tab-menu .menu-tab a {
+} */
+.department-tab-menu .menu-tab div {
   display: block;
   text-align: center;
   background: #fff;
@@ -1071,6 +1069,7 @@ Version         : 1.1
   border-radius: 10px;
   width: 162px;
 }
+
 .department-tab-menu .menu-tab i {
   font-size: 40px;
 }
@@ -3545,7 +3544,7 @@ Version         : 1.1
   content: "";
   width: 100%;
   height: 100%;
-  background: rgba(20, 25, 89, 0.3);
+  background: rgba(20, 25, 89, 0.5);
   left: 0;
   top: 0;
   opacity: 0.8;
@@ -3864,9 +3863,9 @@ Version         : 1.1
   max-width: 250px;
 }
 
-.footer-contact {
+/* .footer-contact {
   padding-left: 60px;
-}
+} */
 .footer-contact p {
   color: #fff;
   margin-bottom: 25px;
@@ -4134,12 +4133,9 @@ Version         : 1.1
   width: 100%;
 }
 
-
 .about-content-ul ul {
-  padding-left: 0px
+  padding-left: 0px;
 }
-
-.about-area 
 
 /* .about-content-para {
   margin-left: 35px;

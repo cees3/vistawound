@@ -2,12 +2,18 @@
   .single-service {
     padding: 28px 20px 16px;
   }
+  .f-contact-inner {
+    max-width: 256px;
+  }
 }
 
 @media (max-width: 1100px) {
   .integrity-image-div {
     width: 100%;
     margin-bottom: 25px;
+  }
+  .f-contact-inner {
+    max-width: 256px;
   }
   .our-mission-area .row {
     flex-direction: column-reverse;
@@ -35,6 +41,9 @@
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
   .topbar-content li {
     margin-right: 5px;
+  }
+  .f-contact-inner {
+    max-width: 256px;
   }
 
   .topbar-content .topbar-detail {
@@ -94,7 +103,7 @@
   }
 
   .single-service-content h4 a {
-    font-size: 16px;
+    font-size: 14px;
     color: #2c2d3f;
     font-weight: 600;
     display: block;
@@ -130,6 +139,9 @@
   .container-md,
   .container-sm {
     max-width: 790px;
+  }
+  .f-contact-inner {
+    max-width: 256px;
   }
   .h-menu-right-mobile {
     display: none;
@@ -406,6 +418,9 @@
   .about-content-ul {
     width: 100%;
   }
+  .f-contact-inner {
+    max-width: 256px;
+  }
   .specialized-spport-section-content {
     margin-top: 0px;
   }
@@ -426,6 +441,9 @@
 @media only screen and (max-width: 767px) {
   .mobile-nav {
     display: block;
+  }
+  .f-contact-inner {
+    max-width: 256px;
   }
   .mission-img-mobile {
     display: block;
@@ -1161,6 +1179,9 @@
     width: 81px;
     display: inline-block;
   }
+  .f-contact-inner {
+    max-width: 256px;
+  }
   .hero-content span::before {
     width: 40px;
     left: 35px;
@@ -1209,6 +1230,9 @@
   } */
   .mission-img-mobile {
     display: block;
+  }
+  .f-contact-inner {
+    max-width: 256px;
   }
   .hero-content span::before {
     width: 40px;

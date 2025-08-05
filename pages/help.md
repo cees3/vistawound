@@ -43,7 +43,7 @@ permalink: /help/
         providers are equipped to treat a wide range of complex and non-healing
         wounds right in the comfort of your home or care facility, reducing the
         need for stressful travel and hospital visits.
-        <strong>Explore our woundcare services below.</strong>
+        <strong>Explore our wound care services below.</strong>
       </p>
     </div>
   </div>
@@ -338,7 +338,7 @@ permalink: /help/
         </div>
       </div>
     </section>
-    <section class="our-help-mission-area" id="skin-tears-more-ulcers">
+     <section class="our-help-mission-area" id="radiation-wounds">
       <div class="container">
         <div class="row">
           <!-- Mission Content -->
@@ -353,8 +353,54 @@ permalink: /help/
                   />
                 </div> -->
                 <h3>
+                  Tailored Healing for
+                  <br /><strong>Radiation Wounds</strong>
+                </h3>
+                <p>
+                 Treating cancer sometimes requires radiation, which can leave you with painful chronic skin wounds. These wounds may appear red, blistered, or damaged, and often don’t heal without proper care. We provide gentle, targeted treatment at home to relieve pain, reduce inflammation, and promote healing. Our team will work closely with your other specialists to ensure coordinated care. → Concerned about a radiation wound? Schedule a home visit with our team.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Mission Image -->
+          <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="mission-img" style="background-size: cover">
+              <img
+                src="{{ site.baseurl }}/assets/img/rational-wound.png"
+                alt="rational-wound-image"
+                class="help-image-section"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-help-mission-area" id="skin-tears-more-ulcers">
+      <div class="container">
+        <div class="row">
+        <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
+            <div class="mission-img" style="background-size: cover">
+              <img
+                src="{{ site.baseurl }}/assets/img/help-service-seven.jpg"
+                alt="help-service-seven"
+                class="help-image-section"
+              />
+            </div>
+          </div>
+          <!-- Mission Content -->
+          <div class="col-xl-7 col-lg-6 col-12 help-right-section wow fadeInLeft" data-wow-delay="0.1s">
+            <div class="mission-content">
+              <div class="mission-c-top">
+                <!-- <div class="mission-img-mobile">
+                  <img
+                  src="{{ site.baseurl }}/assets/img/help-service-seven.jpg"
+                  alt="help-service-seven"
+                  class="help-image-section"
+                  />
+                </div> -->
+                <h3>
                   Gentle Care for
-                  <br /><strong>Skin Tears, Trauma Wounds, and More </strong>
+                  <br /><strong>Skin Tears, post-traumatic wounds, and More </strong>
                 </h3>
                 <p>
                   From fragile skin that tears easily to accidental cuts and
@@ -371,15 +417,6 @@ permalink: /help/
             </div>
           </div>
           <!-- Mission Image -->
-          <div class="col-xl-5 col-lg-6 col-12 wow fadeInRight" data-wow-delay="0.2s">
-            <div class="mission-img" style="background-size: cover">
-              <img
-                src="{{ site.baseurl }}/assets/img/help-service-seven.jpg"
-                alt="help-service-seven"
-                class="help-image-section"
-              />
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -612,8 +649,7 @@ permalink: /help/
             <div class="feature-content">
               <h5>Coordinated Care</h5>
               <p>
-                We pride ourselves on our communication and work seamlessly with
-                your PCP, home health team, facility staff.
+                We pride ourselves on our communication and work seamlessly with your PCP, home health team, and facility staff.
               </p>
             </div>
           </div>
@@ -643,8 +679,8 @@ permalink: /help/
             <div class="feature-content">
               <h5>Mobile Access</h5>
               <p>
-                Care delivered directly to where patients are across Northeast
-                Oklahoma.
+                 Care delivered directly to where patients live—all across
+              Northeast Oklahoma.
               </p>
             </div>
           </div>
