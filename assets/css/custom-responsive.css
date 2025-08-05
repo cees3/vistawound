@@ -5,7 +5,7 @@
   .f-contact-inner {
     max-width: 256px;
   }
-  .footer-area::before {
+  /* .footer-area::before {
     position: absolute;
     content: "";
     width: 445px;
@@ -16,6 +16,19 @@
     background-image: url("{{ site.baseurl }}/assets/img/v-white-logo.png");
     background-size: cover;
     background-position: center;
+    pointer-events: none;
+  } */
+  .footer-bg-image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+    left: -7%;
+    bottom: 316px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
     pointer-events: none;
   }
 }
@@ -48,12 +61,38 @@
     width: 100%;
     margin-top: 25px;
   }
+  .footer-bg-image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+    left: -7%;
+    bottom: 316px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
+  }
 }
 
 /* Tablet Screen */
 @media only screen and (min-width: 991px) and (max-width: 1199px) {
   .topbar-content li {
     margin-right: 5px;
+  }
+  .footer-bg-image {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    opacity: 0.2;
+    left: 26%;
+    bottom: 31px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
   }
   .f-contact-inner {
     max-width: 256px;
@@ -108,6 +147,20 @@
     margin-left: 35px;
     display: block;
   } */
+
+  .footer-bg-image {
+    position: absolute;
+    width: 485px;
+    height: 485px;
+    opacity: 0.2;
+    left: 29%;
+    bottom: 46px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
+  }
   .about-image-content {
     position: relative;
     height: 100%;
@@ -153,19 +206,20 @@
   .container-sm {
     max-width: 790px;
   }
-  .footer-area::before {
+  .footer-bg-image {
     position: absolute;
-    content: "";
-    width: 445px;
-    height: 485px;
+    width: 500px;
+    height: 500px;
     opacity: 0.2;
-    top: 118px;
-    left: 192px;
-    background-image: url("{{ site.baseurl }}/assets/img/v-white-logo.png");
+    left: -7%;
+    bottom: 316px;
     background-size: cover;
     background-position: center;
+    opacity: 0.2;
+    z-index: 0;
     pointer-events: none;
   }
+
   .f-contact-inner {
     max-width: 256px;
   }
@@ -441,17 +495,17 @@
   .our-help-mission-area:nth-child(odd) .row {
     flex-direction: column-reverse;
   }
-  .footer-area::before {
+  .footer-bg-image {
     position: absolute;
-    content: "";
-    width: 445px;
-    height: 485px;
+    width: 500px;
+    height: 500px;
     opacity: 0.2;
-    top: 118px;
-    left: 192px;
-    background-image: url("{{ site.baseurl }}/assets/img/v-white-logo.png");
+    left: 23%;
+    bottom: 95px;
     background-size: cover;
     background-position: center;
+    opacity: 0.2;
+    z-index: 0;
     pointer-events: none;
   }
   .about-content-ul {
@@ -478,17 +532,17 @@
 
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
-  .footer-area::before {
+  .footer-bg-image {
     position: absolute;
-    content: "";
-    width: 445px;
-    height: 485px;
+    width: 400px;
+    height: 400px;
     opacity: 0.2;
-    top: 204px;
-    left: -3px;
-    background-image: url("{{ site.baseurl }}/assets/img/v-white-logo.png");
+    left: 5%;
+    bottom: 340px;
     background-size: cover;
     background-position: center;
+    opacity: 0.2;
+    z-index: 0;
     pointer-events: none;
   }
   .mobile-nav {
@@ -1225,6 +1279,19 @@
 }
 
 @media only screen and (max-width: 340px) {
+  .footer-bg-image {
+    position: absolute;
+    width: 325px;
+    height: 325px;
+    opacity: 0.2;
+    left: 3%;
+    bottom: 395px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
+  }
   .department-tab-menu .menu-tab a {
     padding: 7px;
     margin: 3px;
@@ -1282,6 +1349,19 @@
   } */
   .mission-img-mobile {
     display: block;
+  }
+  .footer-bg-image {
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    opacity: 0.2;
+    left: 0%;
+    bottom: 303px;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2;
+    z-index: 0;
+    pointer-events: none;
   }
   .f-contact-inner {
     max-width: 256px;
