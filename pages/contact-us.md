@@ -114,7 +114,7 @@ permalink: /contact-us/
                           <option value="Infected or Non-Healing Wounds">Infected or Non-Healing Wounds</option>
                           <option value="Radiation Wounds">Radiation Wounds</option>
                           <option value="Skin Tears">Skin Tears</option>
-                          <option value="Trauma Wounds">Trauma Wounds</option>
+                          <option value="post-traumatic wounds">post-traumatic wounds</option>
                           <option value="Other">Other</option>
                         </select>
                       </div>
@@ -164,7 +164,6 @@ permalink: /contact-us/
                 "
               >
                 <div class="contact-details-title">
-                  <span>Contact Us</span>
                   <h4>Get In Touch</h4>
                 </div>
                 <!-- <div class="single-c-details">
@@ -179,7 +178,7 @@ permalink: /contact-us/
                   <a href="tel:+1(918)505-2956" >
                   <div class="single-c-content">
                     <h5>Phone</h5>
-                    <span>+1 (918)505-2956</span>
+                    <span>(918) 505-2956</span>
                   </div>
                   </a>
                 </div>
@@ -207,7 +206,6 @@ permalink: /contact-us/
     <div class="row">
       <div class="col-lg-8 offset-lg-2 col-12">
         <div class="section-title">
-          <span>Coverage Areas </span>
           <h3>Communities Served</h3>
           <p>
             Providing expert mobile wound care to homes and facilities
@@ -227,86 +225,84 @@ permalink: /contact-us/
               data-bs-toggle="tab-hover"
             >
               <li class="nav-item">
-                <a
+                <div
                   class="animated"
-                  href="#"
                   data-bs-toggle="tab"
                   data-bs-target="#tab1"
                 >
                   <i class="far fa-map-marker-alt"></i>
                   <span>Bartlesville</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a
+                <div
                   class="animated"
-                  href="#"
                   data-bs-toggle="tab"
                   data-bs-target="#tab2"
                 >
                   <i class="far fa-map-marker-alt"></i>
                   <span>Bixby</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab3" data-bs-toggle="tab">
+                <div class="animated" data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Broken Arrow </span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab4" data-bs-toggle="tab">
+                <div class="animated"  data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Claremore</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab4" data-bs-toggle="tab">
+                <div class="animated"  data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
-                  <span>Supulpa</span>
-                </a>
+                  <span>Sapulpa</span>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab4" data-bs-toggle="tab">
+                <div class="animated"  data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Glenpool</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab5" data-bs-toggle="tab">
+                <div class="animated"  data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Jenks</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab6" data-bs-toggle="tab">
+                <div class="animated" data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Muskogee</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab6" data-bs-toggle="tab">
+                <div class="animated" data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Owasso</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab6" data-bs-toggle="tab">
+                <div class="animated"  data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Sand Springs </span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab6" data-bs-toggle="tab">
+                <div class="animated" data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
                   <span>Tulsa</span>
-                </a>
+                </div>
               </li>
               <li class="nav-item">
-                <a class="animated" href="#tab6" data-bs-toggle="tab">
+                <div class="animated" data-bs-toggle="tab">
                   <i class="far fa-map-marker-alt"></i>
-                  <span>And beyond </span>
-                </a>
+                  <span>And Beyond</span>
+                </div>
               </li>
             </ul>
             <!-- End Menu Tab -->

@@ -48,7 +48,7 @@ We’ve heard the stories from nurses across the Tulsa area:You send a referral 
 
 ## Advanced Bedside Procedures to Simplify Patient Care
 
-One of the biggest hurdles in **at-home wound care** is transportation.Arranging for a patient with mobility issues to visit an outside clinic is a logistical challenge that consumes your valuable time and energy.**Vista eliminates that entirely.**
+One of the biggest hurdles in wound care is transportation. Arranging for a patient with mobility issues to visit an outside clinic is a logistical challenge that consumes your valuable time and energy. **Vista eliminates that entirely.**
 
 <p class="mt-3">
 Our providers are equipped to perform a wide range of advanced procedures right at the patient's bedside, including:

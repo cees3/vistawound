@@ -94,7 +94,7 @@ permalink: /faq/
                     </a>
                     , including diabetic foot ulcers, pressure injuries
                     (bedsores), venous and arterial ulcers, post-operative
-                    wounds, trauma wounds, skin tears, and infected or
+                    wounds, post-traumatic wounds, skin tears, and infected or
                     non-healing wounds.
                   </div>
                 </div>
