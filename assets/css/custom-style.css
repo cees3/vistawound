@@ -3739,28 +3739,29 @@ Version         : 1.1
 .footer-area::before {
   position: absolute;
   content: "";
-  width: 300px;
-  height: 300px;
-  background: #fff;
-  border-radius: 100%;
-  opacity: 0.1;
-  bottom: -100px;
-  left: -100px;
-  z-index: 1;
+  width: 585px;
+  height: 585px;
+  opacity: 0.2;
+  left: 325px;
+  background-image: url("{{ site.baseurl }}/assets/img/v-white-logo.png");
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
 }
-
+/* 
 .footer-area::after {
   position: absolute;
   content: "";
-  width: 300px;
-  height: 300px;
-  background: #fff;
-  border-radius: 100%;
-  opacity: 0.1;
-  top: -100px;
-  right: -100px;
-  z-index: 1;
-}
+  width: 585px;
+  height: 585px;
+  opacity: 0.2;
+  left: 325px;
+  background-image: url("{{ site.baseurl }}/assets/img/v-white-logo.png");
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+
+} */
 
 .custom-footer-container {
   display: flex;
