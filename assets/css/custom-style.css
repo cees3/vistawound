@@ -3740,11 +3740,11 @@ Version         : 1.1
 
 .footer-bg-image {
   position: absolute;
-  width: 585px;
-  height: 585px;
+  width: 870px;
+  height: 810px;
   opacity: 0.2;
-  left: 33%;
-  bottom: 10px;
+  left: 39%;
+  bottom: -150px;
   background-size: cover;
   background-position: center;
   opacity: 0.2;
@@ -3886,9 +3886,10 @@ Version         : 1.1
   max-width: 250px;
 }
 
-/* .footer-contact {
-  padding-left: 60px;
-} */
+.footer-contact {
+  margin-left: -67px;
+  padding-right: 70px;
+}
 .footer-contact p {
   color: #fff;
   margin-bottom: 25px;

@@ -39,7 +39,7 @@ permalink: /help/
       <p class="help-paragraph">
         At Vista Wound Specialists, we deliver expert mobile wound care directly
         to patients throughout
-        Tulsa and across Northeast Oklahoma.Our experienced
+        Tulsa and across Northeast Oklahoma. Our experienced
         providers are equipped to treat a wide range of complex and non-healing
         wounds right in the comfort of your home or care facility, reducing the
         need for stressful travel and hospital visits.
