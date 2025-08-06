@@ -114,7 +114,7 @@ permalink: /contact-us/
                           <option value="Infected or Non-Healing Wounds">Infected or Non-Healing Wounds</option>
                           <option value="Radiation Wounds">Radiation Wounds</option>
                           <option value="Skin Tears">Skin Tears</option>
-                          <option value="post-traumatic wounds">post-traumatic wounds</option>
+                          <option value="Post-Traumatic Wounds">Post-Traumatic Wounds</option>
                           <option value="Other">Other</option>
                         </select>
                       </div>
