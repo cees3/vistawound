@@ -182,6 +182,15 @@ permalink: /contact-us/
                   </div>
                   </a>
                 </div>
+                 <div class="single-c-details">
+                  <i class="far fa-print"></i>
+                  <a href="tel:+1(918) 205-7006" >
+                  <div class="single-c-content">
+                    <h5>Fax</h5>
+                    <span>(918) 205-7006</span>
+                  </div>
+                   </a>
+                </div>
                 <div class="single-c-details">
                   <i class="far fa-envelope"></i>
                    <a href="mailto:contact@vistawound.com" >
