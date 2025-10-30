@@ -44,7 +44,11 @@
                   >
                     <a href="{{ site.baseurl }}/contact-us/">Contact Us</a>
                   </li>
-
+                  <li
+                    class="{% if page.url == '/privacy-policy/' %}active{% endif %}"
+                  >
+                    <a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a>
+                  </li>
                   <li class="{% if page.url == '/blog/' %}active{% endif %}">
                     <a href="{{ site.baseurl }}/blog/">Blog</a>
                   </li>
