@@ -223,4 +223,21 @@ Version         : 1.1
   $(".searchClose").on("click", function (event) {
     $(".popup-search-box").removeClass("show");
   });
+
+  if (!sessionStorage.getItem("browserSessionId")) {
+    const browserSessionId = 'sess_' + Math.random().toString(36).substring(2, 15);
+    sessionStorage.setItem("browserSessionId", browserSessionId);
+  }
+
+  $('#sms_consent').on('click', function() {
+    if (this.checked) {
+      const sessionId = sessionStorage.getItem("browserSessionId");
+      const timestamp = new Date().toISOString();
+      // Store locally (or send to backend)
+      sessionStorage.setItem("consentTimestamp", timestamp);
+      console.log("✅ Consent given:");
+      console.log("Session ID:", sessionId);
+      console.log("Timestamp:", timestamp);
+    }
+  });
 })(jQuery);
