@@ -8,7 +8,7 @@ permalink: /notice-of-privacy-practices/
 <section class="policy-area">
         <div class="container">
             <div class="mb-4">
-                <p><strong>NOTICE OF PRIVACY PRACTICES</strong></p>
+                <h3 class="mb-2">NOTICE OF PRIVACY PRACTICES</h3>
                 <p><strong>THIS NOTICE DESCRIBES HOW MEDICAL INFORMATION ABOUT YOU MAY BE USED AND DISCLOSED AND HOW YOU CAN GET ACCESS TO THIS INFORMATION. PLEASE REVIEW IT CAREFULLY.</strong></p>
                 <p><b>Effective Date:</b> October 31, 2025</p>
                 <p><b>Covered Entity:</b> Vista Wound Specialists, LLC ("Vista Wound Specialists," "we," "us," or "our")</p>
