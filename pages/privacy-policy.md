@@ -8,7 +8,7 @@ permalink: /privacy-policy/
 <section class="policy-area">
         <div class="container">
             <div class="mb-4">
-                <p>Thank you for visiting our website. This Privacy Policy explains how [Your Company Name] (“we,” “us,” or “our”) collects, uses, and discloses your personal information when you use our website and services. Your privacy is important to us, and we are committed to protecting it.</p>
+                <p>Thank you for visiting our website. This Privacy Policy explains how Vista Wound Specialists, LLC collects, uses, and discloses your personal information when you use our website and services. Your privacy is important to us, and we are committed to protecting it.</p>
             </div>
             <div class="mb-4">
                 <h3 class="mb-2">1. Information We Collect</h3>
@@ -29,16 +29,6 @@ permalink: /privacy-policy/
                 </ul>
             </div>
             <div class="mb-4">
-                <h3 class="mb-2">2. How We Use Your Information</h3>
-                <p>We may use the personal information we collect for the following purposes:</p>
-                <ul class="ml-5 mt-4 policy-list">
-                    <li><i class="far fa-check"></i><b>To Provide and Manage our Services:</b> To create and manage your account, process transactions, and provide you with services you have requested.</li>
-                    <li><i class="far fa-check"></i><b>To Communicate With You:</b>To respond to your inquiries, send you important updates, provide customer support, and send you marketing communications that you have opted in to receive.</li>
-                    <li><i class="far fa-check"></i><b>For Analytics and Improvement: </b>To understand how our website is used, to monitor its performance, and to improve our services and user experience.</li>
-                    <li><i class="far fa-check"></i><b>For Legal and Security Purposes: </b>To comply with legal obligations and to protect the rights and integrity of our website and systems.</li>
-                </ul>
-            </div>
-            <div class="mb-4">
                 <h3 class="mb-2">3. How We Share Your Information</h3>
                 <p>We do not sell or rent your personal information to third parties. We may share your information in the following cases:</p>
                 <ul class="ml-5 mt-4 policy-list">
@@ -50,8 +40,7 @@ permalink: /privacy-policy/
             <div class="mb-4">
                 <h3 class="mb-2">4. SMS Messaging and Consent </h3>
                 <p>We value your privacy and the trust you place in us. Any information you provide to opt-in for SMS (text message) communications will be used exclusively for that purpose.</p>
-                <br />
-                <b>We value your privacy and the trust you place in us. Any information you provide to opt-in for SMS (text message) communications will be used exclusively for that purpose.</b>
+                <p>By opting into SMS from a web form or other medium, you are agreeing to receive SMS messages from Vista Wound Specialists. This includes SMS messages for conversations (external) and conversations (between employees). Message frequency varies. Message and data rates may apply. Message HELP for help. Reply STOP to any message to opt out.</p>
             </div>
             <div class="mb-4">
                 <h3 class="mb-2">5. Data Security </h3>
