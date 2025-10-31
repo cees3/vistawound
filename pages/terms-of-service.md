@@ -49,16 +49,21 @@ permalink: /terms-of-service/
             </ul>
         </div>
         <div class="mb-4">
-            <h3 class="mb-2">5. SMS and Electronic Communications</h3>
-            <p>By providing a phone number or email, you consent to receive communications related to your inquiry or our services. Our SMS program follows the rules in our <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a>:</p>
-            <ul class="ml-5 mt-4 policy-list">
-                <li><i class="far fa-check"></i>Message frequency varies. Message and data rates may apply.</li>
-                <li><i class="far fa-check"></i>Text <strong>STOP</strong> to opt out; text <strong>HELP</strong> for help (recognized keywords include STOP, STOPALL, UNSUBSCRIBE, CANCEL, END, QUIT).</li>
-                <li><i class="far fa-check"></i>Consent is not a condition of purchase or treatment. Carriers are not responsible for delayed or undelivered messages.</li>
-                <li><i class="far fa-check"></i>We avoid sending PHI by SMS; if you request unencrypted communications, we may honor that request consistent with HIPAA’s patient-preference rules.</li>
-            </ul>
-            <p>You agree that notices, disclosures, and other communications we provide electronically satisfy any legal requirement that such communications be in writing.</p>
-        </div>
+  <h3 class="mb-2">SMS Terms</h3>
+  <p>The Vista Wound Specialists SMS program provides service-related texts such as appointment reminders, scheduling updates, and customer support. Marketing texts are sent only if you separately opt in.</p>
+  <ul class="ml-5 mt-4 policy-list">
+    <li><i class="far fa-check"></i><b>Opt-in:</b> Enroll by checking the SMS consent box on our web form or by otherwise providing your consent.</li>
+    <li><i class="far fa-check"></i><b>Message types:</b> Appointment reminders, scheduling updates, care coordination notices, and service alerts; marketing only with a separate opt-in.</li>
+    <li><i class="far fa-check"></i><b>Frequency:</b> Message frequency varies.</li>
+    <li><i class="far fa-check"></i><b>Fees:</b> Message and data rates may apply.</li>
+    <li><i class="far fa-check"></i><b>Help:</b> Text <strong>HELP</strong> for help or contact <a href="tel:19185052956">918-505-2956</a> or <a href="mailto:privacy@vistawound.com">privacy@vistawound.com</a>.</li>
+    <li><i class="far fa-check"></i><b>Opt-out:</b> Text <strong>STOP</strong>, <strong>STOPALL</strong>, <strong>UNSUBSCRIBE</strong>, <strong>CANCEL</strong>, <strong>END</strong>, or <strong>QUIT</strong> to cancel. You can also opt out by contacting us using the information above.</li>
+    <li><i class="far fa-check"></i><b>Consent:</b> Consent is not a condition of purchase or treatment.</li>
+    <li><i class="far fa-check"></i><b>Delivery:</b> Wireless carriers are not liable for delayed or undelivered messages.</li>
+    <li><i class="far fa-check"></i><b>Privacy:</b> We avoid sending PHI by SMS. If you request unencrypted communications, we may honor that request consistent with HIPAA. See our <a href="{{ '/privacy-policy/' | relative_url }}">Privacy Policy</a> and <a href="{{ '/notice-of-privacy-practices/' | relative_url }}">Notice of Privacy Practices</a>.</li>
+    <li><i class="far fa-check"></i><b>Number changes:</b> If your mobile number changes or is reassigned, you agree to promptly notify us to help prevent messages to the wrong person.</li>
+  </ul>
+</div>
         <div class="mb-4">
             <h3 class="mb-2">6. Intellectual Property; License</h3>
             <ul class="ml-5 mt-4 policy-list">
