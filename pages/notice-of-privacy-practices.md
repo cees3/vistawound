@@ -110,12 +110,3 @@ permalink: /notice-of-privacy-practices/
                 <p>You may also file a complaint with the <b>U.S. Department of Health and Human Services, Office for Civil Rights (OCR)</b> at <a href="https://www.hhs.gov/ocr/privacy/hipaa/complaints/" target="_blank" rel="noopener">https://www.hhs.gov/ocr/privacy/hipaa/complaints/</a>. We will <b>not</b> retaliate against you for filing a complaint.</p>
                 <p><em>Accessibility & Language Assistance:</em> This Notice is available in alternative formats or languages upon request.</p>
             </div>
-            <div class="mb-4">
-                <h3 class="mb-2">10. Acknowledgment of Receipt (For In-Office Use)</h3>
-                <p>I acknowledge that I received a copy of Vista Wound Specialists, LLC’s <b>Notice of Privacy Practices</b>.</p>
-                <p>Name of Patient: ______________________________ &nbsp;&nbsp; Date: _____________</p>
-                <p>Signature of Patient/Personal Representative: __________________________</p>
-                <p>Relationship to Patient (if applicable): _________________________________</p>
-            </div>
-        </div>
-</section>
