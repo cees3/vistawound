@@ -69,7 +69,7 @@ permalink: /privacy-policy/
                 <h3 class="mb-2">8. Contact Us </h3>
                 <p>If you have any questions about this Privacy Policy, please contact us at: </p>
             </div>
-            <div class="mb-4">
+            <!-- <div class="mb-4">
                 <p>
                     <label>
                     <input type="checkbox" name="sms_consent" id="sms_consent" required>
@@ -78,6 +78,6 @@ permalink: /privacy-policy/
                     Message and data rates may apply.
                     </label>
                 </p>
-            </div>
+            </div> -->
         </div>
     </section>

@@ -36,6 +36,7 @@ $(document).ready(function () {
       Field8: $("#Field8").val(),
       Field9: $("#Field9").val(),
       Field10: $("#Field10").val().trim(),
+      Field12: $("#Field12").val().trim(),
     };
 
     const $submitBtn = $(form).find("button[type=submit]");
