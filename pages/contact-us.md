@@ -146,7 +146,7 @@ permalink: /contact-us/
                     <input type="checkbox" class="custom-checkbox"  name="Field12" id="Field12" required="required">
                     <span>
                     By checking this box, I agree to the <a href="{{'/' | relative_url}}privacy-policy" target="_blank">Privacy Policy</a> 
-                    and consent to receive text messages at the number provided. 
+                    and <a href="{{ '/terms-of-service/' | relative_url }}" target="_blank" rel="noopener">Terms of Service</a> and consent to receive text messages at the number provided. 
                     Message and data rates may apply.</span>
                     </label>
                       </div>
